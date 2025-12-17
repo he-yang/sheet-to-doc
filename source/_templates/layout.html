@@ -1,0 +1,21 @@
+{% extends "!layout.html" %}
+
+{% block htmltitle %}
+    {{ super() }}
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "Sheet to Doc",
+          "description": "A web application that automatically generates documents from Word templates and Excel data.",
+          "applicationCategory": "Document Conversion",
+          "operatingSystem": "Web"
+        }
+    </script>
+    <meta name="description"
+        content="A web application that automatically generates documents from Word templates and Excel data.">
+    <meta name="keywords"
+        content="sheet-to-doc, excel-to-word, excel to word, word to excel, word, excel, conversion, mac, windows, transfer, spreadsheets, microsoft, add-in, web, online">
+    <link rel="icon" href="https://wtsolutions.cn/favicon.ico">
+{% endblock %}

@@ -1,0 +1,7 @@
+make.bat
+Makefile
+docs
+build
+myenv
+.vscode
+._*
