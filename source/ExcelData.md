@@ -1,0 +1,112 @@
+# Data Preparation
+
+[中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/ExcelData.html)
+
+## Data Preparation
+
+Before using Sheet to Doc, you need to prepare the data that will be converted into documents.
+
+We accept multiple data formats:
+- Tab-separated Excel data (regular Excel files)
+- Comma-separated Excel data (CSV files)
+- JSON
+- JSONL
+
+## Data Content
+
+At least two rows and one column of data should be included.
+
+- Tab-separated Excel data
+    - The first row is the header row,
+    - Subsequent rows are data rows.
+- Comma-separated Excel data
+    - The first row is the header row,
+    - Subsequent rows are data rows.
+- JSON
+    - Should be an array with at least one element
+    - Each element in the array is a JSON object
+    - Each JSON object has at least one key-value pair.
+- JSONL
+    - Each data row is an independent JSON object,
+    - Each JSON object has at least one key-value pair.
+
+Examples:
+
+- Tab-separated Excel data
+```
+    Name    Age    Gender
+    Zhang San    25    Male
+    Li Si    30    Female
+```
+- Comma-separated Excel data
+```
+    Name,Age,Gender
+    Zhang San,25,Male
+    Li Si,30,Female
+```
+- JSON
+```
+    [
+        {"Name": "Zhang San", "Age": 25, "Gender": "Male"},
+        {"Name": "Li Si", "Age": 30, "Gender": "Female"}
+    ]
+```
+- JSONL
+```
+    {"Name": "Zhang San", "Age": 25, "Gender": "Male"}
+    {"Name": "Li Si", "Age": 30, "Gender": "Female"}
+```
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
+     crossorigin="anonymous"></script>
+   <ins class="adsbygoogle"
+      style="display:block; text-align:center;"
+      data-ad-layout="in-article"
+      data-ad-format="fluid"
+      data-ad-client="ca-pub-8772217510669640"
+      data-ad-slot="2653271427"></ins>
+   <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+
+## Data Types
+
+Sheet to Doc supports the following data types:
+
+- Tab-separated Excel data and CSV
+    - Numbers (integers, floating points)
+    - Boolean values (TRUE/FALSE)
+    - Text (strings) (data types other than numbers and booleans are considered text strings)
+
+- JSON and JSONL
+    - Numbers (integers, floating points)
+    - Boolean values (TRUE/FALSE)
+    - Text (strings)
+    - Etc... other data formats supported by JSON
+
+
+### Header Row Data Type Requirements
+
+- Tab-separated Excel data and CSV
+    - Each cell in the header row must be in text format (data types other than numbers and booleans are considered text strings)
+    - Each cell in the header row cannot be empty text (i.e., no content)
+    - Header row cell content can be in Chinese, English, and theoretically supports other languages
+    - It is not recommended to include empty characters (spaces, tabs, etc.) in single cell content in the header row
+    - Content between cells in the header row cannot be duplicated
+- JSON and JSONL
+    - Each key in the JSON object must be in text string format
+    - It is not recommended to include empty characters (spaces, tabs, etc.) in each key of the JSON object
+    - Keys in each JSON object cannot be duplicated
+
+
+### Data Row Data Type Requirements
+
+- Tab-separated Excel data and CSV
+    - Each cell in the data row must contain text, numbers, or boolean values
+    - Some cells in the data row can be empty (i.e., no content)
+- JSON and JSONL
+    - The value of each JSON object can be any data type supported by JSON
+    - The value of each JSON object can be empty (i.e., no content)
+
+

@@ -1,0 +1,120 @@
+/* 自定义Markdown文档样式 */
+
+
+
+.note {
+    background-color: #d1ecf1;
+    border-left: 4px solid #17a2b8;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 0 4px 4px 0;
+}
+
+.warning {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Word文档样式块 */
+.word-document {
+    /* 基础样式 */
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px 0;
+    
+    /* 模拟纸张效果 */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* 页面边框 */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Word文档样式块内容样式 */
+.word-document p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+/* Word文档样式块标题样式 */
+.word-document h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.word-document h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Word文档样式块列表样式 */
+.word-document ul, .word-document ol {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 24px;
+    margin-bottom: 12px;
+}
+
+/* Word文档样式块表格样式 */
+.word-document table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px 0;
+}
+
+.word-document table, .word-document th, .word-document td {
+    border: 1px solid #000000;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.word-document th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* 文档顶部和底部装饰 */
+.word-document::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+
+.word-document::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+}

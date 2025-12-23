@@ -3,19 +3,24 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sheet to Doc by WTSolutions, Auto Generation of Documents from Word Templates and Excel Data
-===========================================================================================
+Sheet to Doc by WTSolutions, Auto Generation of Documents from Word Templates and Excel, CSV,JSON, JSONL Data
+================================================================================================================
 
 `中文 <https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/>`_
 
-Sheet to Doc by WTSolutions is a tool that automatically generates documents from Word templates and Excel data.
-The Service is designed to facilitate the creation of professional documents by populating Word templates with data from Excel data.
+Sheet to Doc by WTSolutions is a tool that automatically generates documents from Word templates and Excel, CSV,JSON, JSONL data.
+The Service is designed to facilitate the creation of professional documents by populating Word templates with data from Excel, CSV, JSON, JSONL data. 
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    getstarted.md
+   Usage.md
+   ExcelData.md
+   WordTemplate.md
+   Settings.md
+   Pricing.md
    termsofuse.md
    privacy.md
    dependencies.md

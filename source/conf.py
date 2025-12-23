@@ -9,7 +9,7 @@
 project = 'Sheet to Doc'
 copyright = '2022~2025, WTSolutions'
 author = 'WTSolutions'
-release = '1.0.0.0'
+release = '1.3.0.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -20,6 +20,7 @@ html_baseurl = 'https://sheet-to-doc.wtsolutions.cn/en/latest/'
 sitemap_url_scheme = "{link}"
 html_extra_path = ['robots.txt','ads.txt']
 html_js_files = ['custom.js']
+html_css_files = ['custom.css']
 language ='en'
 templates_path = ['_templates']
 exclude_patterns = [
