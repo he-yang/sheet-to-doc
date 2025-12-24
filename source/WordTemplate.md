@@ -135,6 +135,49 @@ Wang Wu,35,Male.
 
 </div>
 
+### Filters
+
+You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`.
+
+#### String Filters
+
+| Filter Name | Description | Example | Output |
+|-------------|-------------|---------|--------|
+| `toUpperCase` | Converts the string to uppercase | `{Name \| toUpperCase}` | `ZHANG SAN` |
+| `toLowerCase` | Converts the string to lowercase | `{Name \| toLowerCase}` | `zhang san` |
+| `capitalize` | Capitalizes the first character of the string | `{Name \| capitalize}` | `Zhang san` |
+
+#### Number Filters
+
+##### Basic Number Formatting
+
+| Filter Name | Description | Example | Output |
+|-------------|-------------|---------|--------|
+| `fixed` | Formats a number with a fixed number of decimal places | `{Price \| fixed:2}` when Price is 123.456 | `123.46` |
+| `round` | Rounds a number to the nearest integer | `{Price \| round}` when Price is 123.6 | `124` |
+| `ceil` | Rounds a number up to the nearest integer | `{Price \| ceil}` when Price is 123.1 | `124` |
+| `floor` | Rounds a number down to the nearest integer | `{Price \| floor}` when Price is 123.9 | `123` |
+
+##### Currency and Financial Formatting
+
+| Filter Name | Description | Example | Output |
+|-------------|-------------|---------|--------|
+| `currency` | Formats a number as currency | `{Price \| currency:$:2}` when Price is 1234.56 | `$1,234.56` |
+| `accounting` | Formats a number in accounting format (uses parentheses for negative numbers) | `{Price \| accounting:$:2}` when Price is -1234.56 | `$(1,234.56)` |
+| `thousandSeparator` | Formats a number with thousand separators | `{Price \| thousandSeparator:2}` when Price is 1234567.89 | `1,234,567.89` |
+
+##### Percentage and Scientific Notation
+
+| Filter Name | Description | Example | Output |
+|-------------|-------------|---------|--------|
+| `percentage` | Formats a number as a percentage | `{Rate \| percentage:2}` when Rate is 0.1234 | `12.34%` |
+| `scientific` | Formats a number in scientific notation | `{Value \| scientific:2}` when Value is 123456 | `1.23e+05` |
+
+##### Number Abbreviation
+
+| Filter Name | Description | Example | Output |
+|-------------|-------------|---------|--------|
+| `shortNumber` | Formats a number in short form (K, M, B) | `{Amount \| shortNumber}` when Amount is 1234567 | `1.23M` |
 
 ### Notes
 

@@ -53,7 +53,7 @@ Example:
 
 Download sample Excel file: [sample1-sheet.xlsx](_static/sample1-sheet.xlsx)
 
-| Name  | Date of Birth | Gender |
+| Name  | Date_of_Birth | Gender |
 |-------|---------------|--------|
 | Zhang San | 1990-05-12   | M     |
 
@@ -65,7 +65,7 @@ Next, you need to prepare a Word document template for generating the final docu
 Example:
 
 - Create a new Word document.
-- Insert placeholders using the `{placeholder}` syntax. For example, `{Name}` will be replaced with data from the "Name" column, and `{Date of Birth}` will be replaced with data from the "Date of Birth" column.
+- Insert placeholders using the `{placeholder}` syntax. For example, `{Name}` will be replaced with data from the "Name" column, and `{Date_of_Birth}` will be replaced with data from the "Date of Birth" column.
 - Add any other text or formatting as needed.
 - Save the template as a DOCX file.
 
@@ -84,7 +84,7 @@ We hereby inform you that one of our colleagues will visit your office tomorrow.
 
 Name: {Name}
 
-Date of Birth: {Date of Birth}
+Date of Birth: {Date_of_Birth}
 
 Gender: {Gender}
 

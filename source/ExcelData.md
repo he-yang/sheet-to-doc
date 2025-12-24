@@ -94,10 +94,12 @@ Sheet to Doc supports the following data types:
     - Header row cell content can be in Chinese, English, and theoretically supports other languages
     - It is not recommended to include empty characters (spaces, tabs, etc.) in single cell content in the header row
     - Content between cells in the header row cannot be duplicated
+    - Spaces, @ , hyphens (-) are not allowed in cell content
 - JSON and JSONL
     - Each key in the JSON object must be in text string format
     - It is not recommended to include empty characters (spaces, tabs, etc.) in each key of the JSON object
     - Keys in each JSON object cannot be duplicated
+    - Spaces, @ , hyphens (-) are not allowed in key
 
 
 ### Data Row Data Type Requirements
