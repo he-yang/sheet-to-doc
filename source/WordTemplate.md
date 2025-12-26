@@ -95,6 +95,8 @@ Li Si,30,Female.
 
 If your Excel spreadsheet contains conditional data, you can use conditional placeholders to fill content in the template based on conditions.
 
+#### Conditional Placeholder 1 - true false
+
 > The format of conditional placeholders is `{#aCondition}...{/aCondition}`.
 
 Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender, Awarded.
@@ -132,6 +134,68 @@ Winners of this competition:
 Zhang San,25,Male.
 
 Wang Wu,35,Male.
+
+</div>
+
+#### Conditional Placeholder 2 - equal to
+
+> The format of conditional placeholders is `{#aCondition == "value"}...{/}`.
+
+Suppose your Excel spreadsheet contains the following columns: Name, Prize.
+
+```
+    Name    Prize
+    Zhang San    Watch
+    Li Si    BatteryBank
+    Wang Wu    Watch
+```
+
+In the Word template, you can insert the conditional placeholder `{#Prize == "Watch"}...{/}`:
+
+<div class="word-document">
+
+
+{#data}
+
+{Name} won a {Prize}.
+
+{#Prize == "Watch"}
+
+![Watch](_static/watch.png)
+
+{/}
+
+{#Prize == "BatteryBank"}
+
+![BatteryBank](_static/batterybank.png)
+
+{/}
+
+{/data}
+
+</div>
+
+> Note: 
+> If the condition value is a number, you do not need to enclose it in double quotes.
+
+
+When the tool runs, it will loop through the data in the Excel spreadsheet, check if the person won a watch or battery bank, and if so, fill the placeholder; if not, it will not fill it.
+
+<div class="word-document">
+
+
+
+Zhang San won a Watch.
+
+![Watch](_static/watch.png)
+
+Li Si won a BatteryBank.
+
+![BatteryBank](_static/batterybank.png)
+
+Wang Wu won a Watch.
+
+![Watch](_static/watch.png)
 
 </div>
 
@@ -185,3 +249,13 @@ You can use filters to transform data in your templates. Filters are applied to 
 - The name of the placeholder must exactly match the column header in the Excel spreadsheet, including case.
 - Placeholders can be used anywhere in the template, including paragraphs, tables, lists, etc.
 
+## Placeholder Appearances
+
+Placeholder can appear in any position in the Word template, including but not limited to:
+- Paragraphs
+- Tables
+- Lists
+- Headers
+- Footers
+- Text boxes
+- And more...
