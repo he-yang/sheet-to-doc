@@ -20,6 +20,7 @@ The Service is designed to facilitate the creation of professional documents by 
    ExcelData.md
    WordTemplate.md
    Settings.md
+   Download.md
    Pricing.md
    termsofuse.md
    privacy.md
