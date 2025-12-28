@@ -29,6 +29,7 @@ For Word template preparation, please refer to [Word Template](WordTemplate.md)
 You can access Sheet to Doc in the following ways:
 
 - Use a modern browser (such as Chrome, Firefox, Edge, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
+- Download the tool as a desktop application for offline use. [Download](Download.md)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>

@@ -18,11 +18,11 @@ If you prefer to use sheet-to-doc offline (not the online version), you can inst
    </script>
 
 - Windows (x32, x64)
-  - [sheet-to-doc-2.0.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/sheet-to-doc-2.0.0-win-ia32.exe)
-  - [sheet-to-doc-2.0.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/sheet-to-doc-2.0.0-win-x64.exe)
+  - [sheet-to-doc-2.0.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.0.0-win-ia32.exe)
+  - [sheet-to-doc-2.0.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.0.0-win-x64.exe)
 
 - Linux (x64, arm64, armv7l)
-  - [sheet-to-doc-2.0.0-linux-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/sheet-to-doc-2.0.0-linux-x64.AppImage)
-  - [sheet-to-doc-2.0.0-linux-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/sheet-to-doc-2.0.0-linux-arm64.AppImage)
-  - [sheet-to-doc-2.0.0-linux-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/sheet-to-doc-2.0.0-linux-armv7l.AppImage)
+  - [sheet-to-doc-2.0.0-linux-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.0.0-linux-x64.AppImage)
+  - [sheet-to-doc-2.0.0-linux-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.0.0-linux-arm64.AppImage)
+  - [sheet-to-doc-2.0.0-linux-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.0.0-linux-armv7l.AppImage)
 

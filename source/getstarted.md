@@ -108,7 +108,7 @@ You can access Sheet to Doc in the following ways:
 
 - Use a modern browser (such as Chrome, Firefox, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
 - You can change the language to English or Chinese by clicking the language switcher in the top right corner.
-
+- Download the tool as a desktop application for offline use. [Download](Download.md)
 
 ### 4. Fill in Data
 
