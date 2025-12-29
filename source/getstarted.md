@@ -43,7 +43,7 @@ This getting started guide (this page) will walk you through the basic usage ste
 
 ## Basic Usage Steps
 
-### 1. Prepare Your Excel Data
+### Prepare Your Excel Data
 
 First, you need to prepare an Excel spreadsheet containing the data to be converted into documents. The spreadsheet should have a clear structure:
 - The first row is the header row,
@@ -58,7 +58,7 @@ Download sample Excel file: [sample1-sheet.xlsx](_static/sample1-sheet.xlsx)
 | Zhang San | 1990-05-12   | M     |
 
 
-### 2. Prepare Your Word (.docx) Template
+### Prepare Your Word (.docx) Template
 
 Next, you need to prepare a Word document template for generating the final documents. The template should contain placeholders from the Excel spreadsheet data.
 
@@ -102,7 +102,7 @@ WTSolutions
 
 
 
-### 3. Access the Tool
+### Access the Tool
 
 You can access Sheet to Doc in the following ways:
 
@@ -110,18 +110,18 @@ You can access Sheet to Doc in the following ways:
 - You can change the language to English or Chinese by clicking the language switcher in the top right corner.
 - Download the tool as a desktop application for offline use. [Download](Download.md)
 
-### 4. Fill in Data
+### Fill in Data
 
 - Copy data directly from your Excel spreadsheet.
 - Paste it into the "Data" field in the Sheet to Doc web application.
 - You can view a data preview in the web application.
 
-### 5. Upload Template
+### Upload Template
 
 - Upload the Word template file you prepared in step 2.
 
 
-### 6. Generate Documents
+### Generate Documents
 
 When selecting the generation mode, choose mode 1: Generate separate Word documents for each row of data.
 

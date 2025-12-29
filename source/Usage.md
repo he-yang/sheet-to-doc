@@ -6,7 +6,7 @@ Sheet to Doc is a powerful tool that automatically converts Excel spreadsheets, 
 
 ## Usage Steps
 
-### 1. Prepare Your Data
+### Prepare Your Data
 
 First, you need to prepare the data to be converted into documents:
    - Excel spreadsheet. The spreadsheet should have a clear structure:
@@ -18,13 +18,13 @@ First, you need to prepare the data to be converted into documents:
 
 For data preparation, please refer to [Data Preparation](ExcelData.md)
 
-### 2. Prepare Your Word (.docx) Template
+### Prepare Your Word (.docx) Template
 
 Next, you need to prepare a Word document template for generating the final documents. The template should contain placeholders from the Excel spreadsheet data.
 
 For Word template preparation, please refer to [Word Template](WordTemplate.md)
 
-### 3. Access the Tool
+### Access the Tool
 
 You can access Sheet to Doc in the following ways:
 
@@ -43,18 +43,18 @@ You can access Sheet to Doc in the following ways:
       (adsbygoogle = window.adsbygoogle || []).push({});
    </script>
 
-### 4. Fill in Data
+### Fill in Data
 
 - Copy data directly from your Excel spreadsheet, or from CSV, JSON, JSONL files,
 - Paste it into the "Data" field in the Sheet to Doc application,
 - You can view a data preview in the application.
 
-### 5. Upload Template
+### Upload Template
 
 - Upload the Word template file you prepared in step 2.
 
 
-### 6. Generate Documents
+### Generate Documents
 
 Before selecting the generation mode, choose the generation mode and define the file name.
 

@@ -15,7 +15,25 @@ release = '2.0.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 
-extensions = ['myst_parser','sphinx_sitemap']
+
+#  启用自动编号（关键配置：开启toctree的层级编号）
+toc_num_entries = True  # 核心：开启目录项数字编号
+
+extensions = [
+    'myst_parser',
+    'sphinx_sitemap',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.napoleon',
+    'sphinx_rtd_theme',
+]
+
+# 3. 可选：配置编号样式（部分主题支持）
+html_theme_options = {
+    'numbered_headings': True,  # 适配 sphinx_rtd_theme 等主题的序号显示
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+}
+
 html_baseurl = 'https://sheet-to-doc.wtsolutions.cn/en/latest/'
 sitemap_url_scheme = "{link}"
 html_extra_path = ['robots.txt','ads.txt']

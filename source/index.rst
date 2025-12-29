@@ -12,8 +12,10 @@ Sheet to Doc by WTSolutions is a tool that automatically generates documents fro
 The Service is designed to facilitate the creation of professional documents by populating Word templates with data from Excel, CSV, JSON, JSONL data. 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :numbered:
+   :caption: Table of Contents:
+   :name: mastertoc
 
    getstarted.md
    Usage.md

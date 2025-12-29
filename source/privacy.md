@@ -4,13 +4,13 @@
 
 
 
-## 1. Introduction
+## Introduction
 
 Welcome to **WTSolutions** ("we," "us," or "our"). This Privacy Policy explains how we handle your data when you use our **Sheet-to-Doc** service ("Service"). Your privacy is important to us, and we are committed to protecting your personal information and ensuring transparency in how we operate.
 
 By using the Service, you agree to the terms outlined in this Privacy Policy. If you do not agree with this policy, please do not use the Service.
 
-## 2. Scope of This Policy
+## Scope of This Policy
 
 This Privacy Policy applies to the **Sheet-to-Doc** Service, which is a web application that allows users to generate documents from Word templates and Excel data. This policy describes how we handle data processed through the Service.
 
@@ -26,14 +26,14 @@ This Privacy Policy applies to the **Sheet-to-Doc** Service, which is a web appl
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-## 3. Data We Do Not Collect
+## Data We Do Not Collect
 
 We want to assure you that:
 - **We do not store or retain any data** from your Excel files, Excel content, Word templates, or Word content.
 - **We do not transmit your data over the internet**. All data processing occurs locally within your web browser.
 - **We do not access, collect, or use any personal or sensitive information** from your Excel files or Word templates.
 
-## 4. Data We Collect for Subscription Management
+## Data We Collect for Subscription Management
 
 For Pro feature subscriptions, we collect and store:
 - Your name and contact information for subscription management purposes.
@@ -41,14 +41,14 @@ For Pro feature subscriptions, we collect and store:
 - Subscription status and billing history
 - Usage data related to Pro features for service improvement, such as Pro Code.
 
-## 5. How the Service Works
+## How the Service Works
 
 The **Sheet-to-Doc** Service operates entirely within your local device. When you use the Service:
 - Your Excel data and Word templates are processed locally on your device.
 - The document generation from Excel data and Word templates is performed within your web browser.
 - No data is sent to our servers, except as described in Section 4.
 
-## 6. Your Responsibilities
+## Your Responsibilities
 
 While we take steps to ensure your data remains private, you are responsible for:
 - Ensuring the security of your web browser and the device on which you use the Service.
@@ -56,7 +56,7 @@ While we take steps to ensure your data remains private, you are responsible for
 - Complying with applicable data protection laws and regulations.
 - Maintaining the accuracy of your billing information and promptly updating any changes.
 
-## 7. Third-Party Services
+## Third-Party Services
 
 The **Sheet-to-Doc** Service integrates with **Cloudflare Web Analytics** to collect anonymized usage data about how users interact with our website. This helps us improve the performance and user experience of our Service. 
 
@@ -92,11 +92,11 @@ Google AdSense collects the following information to provide personalized advert
 
  For more information about how Google uses data, please visit [Google's Privacy & Terms](https://policies.google.com/privacy).
 
-## 8. Changes to This Privacy Policy
+## Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time. Any changes will be effective immediately upon posting the revised policy on our website. Your continued use of the Service after any changes constitutes your acceptance of the updated Privacy Policy.
 
-## 9. Contact Us
+## Contact Us
 
 If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
 
