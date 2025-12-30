@@ -53,6 +53,12 @@ You can access Sheet to Doc in the following ways:
 
 - Upload the Word template file you prepared in step 2.
 
+### Data and Placeholder Comparison
+
+- Compare the data you filled in with the placeholders in the template.
+- If there are any mismatches, adjust the data or template accordingly.
+
+For more details, please refer to [Data Comparison](Comparison.md)
 
 ### Generate Documents
 

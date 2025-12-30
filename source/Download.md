@@ -1,8 +1,10 @@
 # Download
 
-[中文](https://sheet-to-doc-cn.wtsolutions.cn/zh-cn/latest/Download.html)
+[中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Download.html)
 
 If you prefer to use sheet-to-doc offline (not the online version), you can install it from the following links:
+
+Offline versions are available for Windows, Mac, and Linux, can work without an internet connection.
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
@@ -16,6 +18,10 @@ If you prefer to use sheet-to-doc offline (not the online version), you can inst
    <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
    </script>
+
+## Latest Version
+- Web Version: v2.1.0
+- Offline Version: v2.0.0
 
 ## Windows (x32, x64)
   - [sheet-to-doc-2.0.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.0.0-win-ia32.exe)

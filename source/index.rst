@@ -21,6 +21,7 @@ The Service is designed to facilitate the creation of professional documents by 
    Usage.md
    ExcelData.md
    WordTemplate.md
+   Comparison.md
    Settings.md
    Download.md
    Pricing.md
