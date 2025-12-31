@@ -6,7 +6,7 @@ Sheet to Doc is a powerful tool that automatically converts Excel spreadsheets, 
 
 ## Usage Steps
 
-### Prepare Your Data
+### Prepare Your Data and Images
 
 First, you need to prepare the data to be converted into documents:
    - Excel spreadsheet. The spreadsheet should have a clear structure:
@@ -16,7 +16,9 @@ First, you need to prepare the data to be converted into documents:
    - JSON data
    - JSONL data
 
-For data preparation, please refer to [Data Preparation](ExcelData.md)
+If you need to insert images into Word document, you need to prepare the image files first.
+
+For data preparation, please refer to [Data and Image Preparation](ExcelData.md)
 
 ### Prepare Your Word (.docx) Template
 
@@ -48,6 +50,10 @@ You can access Sheet to Doc in the following ways:
 - Copy data directly from your Excel spreadsheet, or from CSV, JSON, JSONL files,
 - Paste it into the "Data" field in the Sheet to Doc application,
 - You can view a data preview in the application.
+
+### Upload Images (If Needed)
+
+If you need to insert images into Word document, you need to upload the image files. You can upload multiple images at once, or upload them one by one. After uploading, the uploaded image files will be listed below the upload area. If you do not need to insert images, you can skip this step.
 
 ### Upload Template
 

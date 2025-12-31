@@ -199,6 +199,61 @@ Wang Wu won a Watch.
 
 </div>
 
+### Image Placeholders
+
+Sheet to Doc provides two methods for inserting images. Method 1 is described in the "Conditional Placeholder 2" section above, and the other method is the image placeholder method covered in this chapter.
+
+Image placeholders are special markers used in Word templates for inserting images. Each image placeholder is enclosed by English characters `{` and `}` , such as `{@imageName | _inline_image} `, `{@imageName | _block_image} `, etc.
+
+- `_inline_image` represents an inline image, which will insert the image into the text, closely integrated with the text.
+- `_block_image` represents a block-level image, which will insert the image into a paragraph, independent of the paragraph.
+- `width` and `height` are optional parameters, used to specify the width and height of the image. If not specified, the image will be displayed at 5cm x 5cm. If specified, the unit must be in centimeters. For example, `{@imageName | _inline_image:10:10}` means to insert the image into the text, with a width of 10cm and a height of 10cm.
+
+Note:
+
+- Image placeholders must start with `@` , for example `{@imageName | _inline_image}`
+- Image placeholders must include the image type ( `| _inline_image` or `| _block_image` ), otherwise the tool cannot recognize them. Note that `|` and `_` must use English characters.
+- Image placeholders must appear as a separate line in the Word template and cannot be on the same line as other text. Otherwise, they will not display properly.
+- Image placeholders must include an image filename variable, otherwise the tool cannot recognize the image filename. For example, in `{@imageName | _inline_image}` , `imageName` is the image filename variable.  
+- The image filename must match the uploaded image filename (case-sensitive, must include extension), otherwise the tool cannot find the corresponding image file (e.g., watch.png ). Errors may occur if they contain special characters.
+- If more images are uploaded than listed in the Excel data, the tool will ignore the extra images and only use the images listed in the Excel data. If the Excel data lists an image that is not uploaded, the generated report will say "Image not uploaded, please upload"
+
+Example:
+
+Suppose the Excel data lists Image filename and Image Name.
+
+For example:
+
+```
+    Image_Name  Image_Filename
+    Watch    watch.png
+    Power_Bank    batterybank.png
+```
+At the same time, we need to upload the two images watch.png and batterybank.png.
+
+The Word template uses the following format:
+
+<div class = "word-document">
+
+{#data}
+
+{@Image_Filename | _inline_image}
+
+{/data}
+</div>
+
+This will generate the following document:
+
+<div class="word-document">
+
+![watch](_static/watch.png)
+
+![batterybank](_static/batterybank.png)
+
+
+</div>
+
+
 ### Filters
 
 You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`.
@@ -243,13 +298,8 @@ You can use filters to transform data in your templates. Filters are applied to 
 |-------------|-------------|---------|--------|
 | `shortNumber` | Formats a number in short form (K, M, B) | `{Amount \| shortNumber}` when Amount is 1234567 | `1.23M` |
 
-### Notes
 
-- Placeholders must be enclosed in curly braces `{}`.
-- The name of the placeholder must exactly match the column header in the Excel spreadsheet, including case.
-- Placeholders can be used anywhere in the template, including paragraphs, tables, lists, etc.
-
-## Placeholder Appearances
+### Placeholder Appearances
 
 Placeholder can appear in any position in the Word template, including but not limited to:
 - Paragraphs
@@ -259,3 +309,9 @@ Placeholder can appear in any position in the Word template, including but not l
 - Footers
 - Text boxes
 - And more...
+
+## Notes
+
+- Placeholders must be enclosed in curly braces `{}`.
+- The name of the placeholder must exactly match the column header in the Excel spreadsheet, including case.
+- Placeholders can be used anywhere in the template, including paragraphs, tables, lists, etc.
