@@ -121,7 +121,7 @@ We accept multiple image formats:
 - PNG
 - GIF
 - BMP
-- TIFF
+
 
 Image file size is recommended not to exceed 1MB. It is recommended to compress images using compression tools to reduce file size, otherwise, the generation time will be long and the probability of errors will increase.
 

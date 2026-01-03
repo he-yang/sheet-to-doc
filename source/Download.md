@@ -20,7 +20,7 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
    </script>
 
 ## Latest Version
-- Web Version: v2.2.0
+- Web Version: v2.3.0
 - Offline Version: v2.1.0
 
 ## Windows (x32, x64)

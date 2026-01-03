@@ -118,3 +118,10 @@
     height: 1px;
     background-color: #e0e0e0;
 }
+
+blockquote {
+    /* 左侧的边框是一个蓝色的宽度10px */
+    border-left: 5px solid #007bff;
+    padding-left: 16px;
+    margin-left: 0;
+}

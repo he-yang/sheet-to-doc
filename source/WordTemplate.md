@@ -256,7 +256,8 @@ This will generate the following document:
 
 ### Filters
 
-You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`.
+You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`. Note that `{}` and `|` must use English characters. If the filter requires a parameter, and if this parameter is not a number, then the parameter must be enclosed in double quotes.
+
 
 #### String Filters
 
@@ -281,8 +282,8 @@ You can use filters to transform data in your templates. Filters are applied to 
 
 | Filter Name | Description | Example | Output |
 |-------------|-------------|---------|--------|
-| `currency` | Formats a number as currency | `{Price \| currency:$:2}` when Price is 1234.56 | `$1,234.56` |
-| `accounting` | Formats a number in accounting format (uses parentheses for negative numbers) | `{Price \| accounting:$:2}` when Price is -1234.56 | `$(1,234.56)` |
+| `currency` | Formats a number as currency | `{Price \| currency:"$":2}` when Price is 1234.56 | `$1,234.56` |
+| `accounting` | Formats a number in accounting format (uses parentheses for negative numbers) | `{Price \| accounting:"$":2}` when Price is -1234.56 | `$(1,234.56)` | 
 | `thousandSeparator` | Formats a number with thousand separators | `{Price \| thousandSeparator:2}` when Price is 1234567.89 | `1,234,567.89` |
 
 ##### Percentage and Scientific Notation
