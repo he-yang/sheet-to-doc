@@ -19,8 +19,8 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
       (adsbygoogle = window.adsbygoogle || []).push({});
    </script>
 
-## Latest Version
-- Web Version: v2.3.0
+## Latest Versions
+- Web Version: v2.4.0
 - Offline Version: v2.3.0
 
 ## Windows (x32, x64)

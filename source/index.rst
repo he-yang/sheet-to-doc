@@ -28,6 +28,7 @@ The Service is designed to facilitate the creation of professional documents by 
    termsofuse.md
    privacy.md
    dependencies.md
+   changelog.md
 
 .. raw:: html
    

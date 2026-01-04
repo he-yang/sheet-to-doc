@@ -23,6 +23,7 @@ After the comparison, recommendations for subsequent steps are given; however, r
    - If Sheet to Doc can process these filters, they are marked ✅
    - If Sheet to Doc cannot process them, they are marked ❌
    - Refer to [Word Template](https://sheet-to-doc.wtsolutions.cn/en/latest/WordTemplate.html) for supported filters
+   - If the template contains no filters, you can ignore this step
 
 - Image placeholders vs. images
    - First detect whether the Word template uploaded in Step 2 uses image placeholders
@@ -35,6 +36,7 @@ After the comparison, recommendations for subsequent steps are given; however, r
    - Confirm whether the image was uploaded in Step 1
       - Uploaded → ✅
       - Not uploaded → ❌
+   - If the template contains no image placeholders, you can ignore this step
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"

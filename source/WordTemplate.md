@@ -29,6 +29,10 @@
 
 ### Data Placeholders
 
+| Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
+| :--- | :---: | :---: |
+| Data Placeholder | ✅ | ✅ |
+
 Placeholders are special markers used in Word templates to insert data. Each placeholder is enclosed in `{` and `}`, for example `{Name}`, `{Date of Birth}`, etc.
 
 The name of the placeholder must exactly match the column header in the Excel spreadsheet, otherwise the data will not be filled correctly.
@@ -56,13 +60,23 @@ Zhang San,25,Male.
 
 ### Loop Placeholders
 
-> Loop placeholders only work in Generation Mode 2 (generate one Word document for all data items).
+| Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
+| :--- | :---: | :---: |
+| Loop Placeholder 1 | ❌ | ✅ |
+| Loop Placeholder 2 | ✅ | ✅ |
 
-If your Excel spreadsheet contains multiple rows of data, you can use loop placeholders to repeatedly fill content in the template.
+#### Loop Placeholder 1
 
-> The format of loop placeholders is `{#data}...{/data}`. Within `{#data}...{/data}`, you can use data placeholders such as `{Name}` to reference specific data.
+The format of loop placeholders is `{#data}...{/data}`. Within `{#data}...{/data}`, you can use data placeholders such as `{Name}` to reference specific data.
+
+- Loop placeholders only work in Generation Mode 2 (generate one Word document for all data items).
+- If your Excel spreadsheet contains multiple rows of data, you can use loop placeholders 1 to repeatedly fill content in the template.
+- Loop placeholders 1 work only in Generation Mode 2 (generate one Word document for all data items), and if you choose Generation Mode 2, loop placeholder must be present in the template.
+
+
 
 Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender.
+
 ```
     Name    Age    Gender
     Zhang San    25    Male
@@ -90,8 +104,117 @@ Li Si,30,Female.
 
 </div>
 
+#### Loop Placeholder 2
+
+(Since version 2.4.0)
+
+
+
+Loop Placeholder 2 is a more general version compared to Loop Placeholder 1.
+- The format of Loop Placeholder 2 is `{#loop1}...{/loop1}`.
+- The `loop1` in Loop Placeholder 2 can be replaced with other names, such as `{#person}...{/person}`, `{#info}...{/info}`, etc., but it cannot be `{#data}` or `{/data}`.
+- Loop Placeholder 2 is relatively more complex to use. If not necessary, it is recommended to use Loop Placeholder 1.
+- Loop Placeholder 2 can take effect in both Generation Mode 1 and 2.
+- If you use Loop Placeholder 2, you need to make some considerations in Excel data preparation and Word template preparation, otherwise it will lead to data filling errors. This is explained through the following example.
+
+We use the same example as Loop Placeholder 1, assuming your Excel spreadsheet contains the following columns: Name, Age, Gender.
+```
+    Name    Age    Gender
+    Zhang San    25    Male
+    Li Si    30    Female
+    Wang Wu    35    Male
+```
+If you use Loop Placeholder 1, you can refer to the previous section. If you use Loop Placeholder 2, you need to make some considerations in Excel data preparation and Word template preparation.
+
+Excel data needs to be adjusted as follows:
+
+```
+    info.Name    info.Age    info.Gender
+    Zhang San        25          Male
+    Li Si        30          Female
+    Wang Wu        35          Male
+```
+- We added `info.` before the headers `Name`, `Age`, and `Gender`. This is to correctly reference the columns in Excel data when using Loop Placeholder 2 in the Word template.
+
+The following explains Generation Mode 1 and Generation Mode 2 separately.
+
+- In Generation Mode 1, you need to use `{#info}` and `{/info}` as Loop Placeholder 2 in the Word template, wrapping the content of the data placeholders `{Name}`, `{Age}`, and `{Gender}`.
+- In Generation Mode 2, you can use `{#info}` and `{/info}` as Loop Placeholder 2 in the Word template, wrapping the content of the data placeholders `{Name}`, `{Age}`, and `{Gender}`. At the same time, you also need to use `{#data}` and `{/data}` on the outermost layer, because this is a required placeholder for using Generation Mode 2.
+
+In the Word template prepared for Generation Mode 1, you can insert the following placeholders:
+
+<div class="word-document">
+
+{#info}
+
+{Name},{Age},{Gender}.
+
+{/info}
+
+</div>
+
+When Generation Mode 1 is selected, it will loop through the data in the Excel spreadsheet and generate 3 files.
+
+<div class="word-document">
+
+Zhang San,25,Male.
+
+</div>
+
+<div class="word-document">
+
+Li Si,30,Female.
+
+</div>
+
+<div class="word-document">
+
+Wang Wu,35,Male.
+
+</div>
+
+
+
+
+In the Word template prepared for Generation Mode 2, you can insert the following placeholders:
+
+<div class="word-document">
+
+{#data}
+
+{#info}
+
+{Name},{Age},{Gender}.
+
+{/info}
+
+{/data}
+
+
+
+</div>
+
+When using Generation Mode 2, it will loop through the data in the Excel spreadsheet and fill these placeholders row by row. Finally, one file is generated.
+
+<div class="word-document">
+
+Zhang San,25,Male.
+
+Li Si,30,Female.
+
+Wang Wu,35,Male.
+
+</div>
+
+
 
 ### Conditional Placeholders
+
+| Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
+| :--- | :---: | :---: |
+| Conditional Placeholder 1 | ✅ | ✅ |
+| Conditional Placeholder 2 | ✅ | ✅ |
+| Conditional Placeholder 3 | ✅ | ✅ |
 
 If your Excel spreadsheet contains conditional data, you can use conditional placeholders to fill content in the template based on conditions.
 
@@ -199,6 +322,55 @@ Wang Wu won a Watch.
 
 </div>
 
+
+#### Conditional Placeholder 3 - Comparison
+
+(Since version 2.4.0)
+
+> The format of Conditional Placeholder 3 is `{#aCondition operator "specifiedValue"}...{/}`.
+> Operators include `>`, `>=`, `<`, `<=`.
+> Note that symbols like `{}`, `#` etc. must use **English characters**.
+
+Example:
+
+Suppose your Excel spreadsheet contains the following columns:
+```
+    Name    Age
+    Zhang San    25
+    Li Si    30
+    Wang Wu    35
+```
+
+<div class="word-document">
+
+{#data}
+
+{#Age >= 30}
+
+{Name} is 30 years old or above.
+
+{/}
+
+{/data}
+
+</div>
+
+Note:
+- If the condition specified value is a number, no double quotes are needed, just write the number directly.
+- This example should run in Generation Mode 2 where all data is repeated in one Word document.
+
+When the tool runs, it will loop through the data in the Excel spreadsheet and check the set condition. If it is true, it will fill the placeholder; if not, it will not fill it.
+
+<div class="word-document">
+
+Li Si is 30 years old or above.
+
+Wang Wu is 30 years old or above.
+
+</div>
+
+
+
 ### Image Placeholders
 
 Sheet to Doc provides two methods for inserting images. Method 1 is described in the "Conditional Placeholder 2" section above, and the other method is the image placeholder method covered in this chapter.
@@ -252,7 +424,7 @@ This will generate the following document:
 
 
 </div>
-
+ 
 
 ### Filters
 

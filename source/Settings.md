@@ -4,19 +4,23 @@
 
 Sheet to Doc is a powerful tool that automatically converts Excel spreadsheets, CSV, JSON, JSONL files into professional documents. Building upon mail merge functionality, this tool has additional features.
 
-## Conversion Modes
+## Conversion Modes 
 
 ### Mode 1: Generate Separate Word Documents for Each Row (Recommended for New Users)
 
 - Each data row will generate a separate Word document.
 - The document filename will be automatically generated based on placeholders in the template, defaulting to sheet_to_doc_R_{row_number}_{timestamp}.docx, and can be customized.
-- This mode may generate multiple files, and the browser will pop up a reminder to download multiple files, which requires this operation.
+- This mode may generate multiple files
+   - If you use web version, the browser will pop up a reminder to download multiple files, which requires this operation.
+   - If you use desktop version, the files will be saved in the default download directory. You can set the download directory by right clicking on the page.
 - This mode is recommended for all new users.
 
 ### Mode 2: Generate One Word Document for All Data
 
 - All data will be merged into a single Word document, where the corresponding data is repeatedly generated according to the placeholder design in the template.
 - The document filename will be automatically generated based on placeholders in the template, defaulting to sheet_to_doc_All_{timestamp}.docx, and can be customized.
+- This mode produce one single document.
+- Under this mode, your Word template must use Loop placeholder 1.
 
 ## Filename Settings
 
