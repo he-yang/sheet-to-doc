@@ -20,10 +20,11 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
    </script>
 
 ## Latest Versions
-- Web Version: v2.4.0
+- Web Version: v2.5.0
 - Offline Version: v2.4.0
 
 ## Windows (x32, x64)
+- At least win10 system, recommended win11 system. Win7 is not supported.
   - [sheet-to-doc-2.4.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0-win-ia32.exe)
   - [sheet-to-doc-2.4.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0-win-x64.exe)
 

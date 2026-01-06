@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** 2025-12-17
+**Effective Date:** 2026-01-06
 
 
 
@@ -33,13 +33,14 @@ We want to assure you that:
 - **We do not transmit your data over the internet**. All data processing occurs locally within your web browser.
 - **We do not access, collect, or use any personal or sensitive information** from your Excel files or Word templates.
 
-## Data We Collect for Subscription Management
+## Data We Collect for Subscription and Activation
 
-For Pro feature subscriptions, we collect and store:
-- Your name and contact information for subscription management purposes.
-- Payment information (processed by our secure payment gateway Stripe or Paddle)
-- Subscription status and billing history
-- Usage data related to Pro features for service improvement, such as Pro Code.
+For Pro feature subscriptions (Online Pro) and Offline Pro purchases, we collect and store:
+- **Contact Information:** Your email address for subscription management, activation code delivery, and important updates
+- **Payment Information:** Processed by our secure payment gateways (Stripe, Paddle) and not stored on our servers
+- **Subscription Information:** Subscription status, billing history, and renewal dates for Online Pro subscribers
+- **Activation Information:** Device code and activation status for Offline Pro purchases
+- **Usage Data:** Anonymized usage data related to Pro features for service improvement and performance optimization
 
 ## How the Service Works
 
