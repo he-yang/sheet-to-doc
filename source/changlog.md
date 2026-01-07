@@ -19,3 +19,7 @@
   - New: Support inserting loop placeholder 2 and conditional placeholder 3 in document templates.
   - New: Right-side icon
   - New: Electron usage statistics
+
+- v2.5.0 (2026-1-7)
+  - Optimize desktop installation version performance
+  - Start distinguishing Free version and Pro version

@@ -21,18 +21,18 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
 
 ## Latest Versions
 - Web Version: v2.5.0
-- Offline Version: v2.4.0
+- Offline Version: v2.5.0
 
 ## Windows (x32, x64)
 - At least win10 system, recommended win11 system. Win7 is not supported.
-  - [sheet-to-doc-2.4.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0-win-ia32.exe)
-  - [sheet-to-doc-2.4.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0-win-x64.exe)
+  - [sheet-to-doc-2.5.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.0-win-ia32.exe)
+  - [sheet-to-doc-2.5.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.0-win-x64.exe)
 
 ## Mac 
-  - [sheet-to-doc-2.4.0.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0.dmg)
+  - [sheet-to-doc-2.5.0.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.0.dmg)
 
 ## Linux (x64, arm64, armv7l)
-  - [sheet-to-doc-2.4.0-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0.AppImage)
-  - [sheet-to-doc-2.4.0-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0-arm64.AppImage)
-  - [sheet-to-doc-2.4.0-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.4.0-armv7l.AppImage) 
+  - [sheet-to-doc-2.5.0-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.0.AppImage)
+  - [sheet-to-doc-2.5.0-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.0-arm64.AppImage)
+  - [sheet-to-doc-2.5.0-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.0-armv7l.AppImage) 
 
