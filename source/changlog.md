@@ -23,3 +23,6 @@
 - v2.5.0 (2026-1-7)
   - Optimize desktop installation version performance
   - Start distinguishing Free version and Pro version
+
+- v2.5.1 (2026-1-10)
+  - Optimize desktop installation version performance, solve some known problems.
