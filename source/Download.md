@@ -21,20 +21,19 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
 
 ## Latest Versions
 - Web Version: v2.5.0
-- Offline Version: v2.5.1
+- Offline Version: v2.5.2
 
 ## Windows (x32, x64)
-- At least win10 system, recommended win11 system. Win7 is not supported.
-  - [sheet-to-doc-2.5.1-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.1-win-ia32.exe)
-  - [sheet-to-doc-2.5.1-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.1-win-x64.exe)
+  - [sheet-to-doc-2.5.2-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-win-ia32.exe)
+  - [sheet-to-doc-2.5.2-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-win-x64.exe)
 
 ## Mac 
-  - [sheet-to-doc-2.5.1.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.1.dmg)
+  - [sheet-to-doc-2.5.2.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2.dmg)
 
 ## Linux (x64, arm64, armv7l)
-  - [sheet-to-doc-2.5.1-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.1.AppImage)
-  - [sheet-to-doc-2.5.1-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.1-arm64.AppImage)
-  - [sheet-to-doc-2.5.1-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.1-armv7l.AppImage) 
+  - [sheet-to-doc-2.5.2-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2.AppImage)
+  - [sheet-to-doc-2.5.2-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-arm64.AppImage)
+  - [sheet-to-doc-2.5.2-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-armv7l.AppImage) 
 
 ## FAQ
 
@@ -42,6 +41,5 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
   - Check if Windows Defender has blocked the file.
   - Verify that you are not on Windows 7; it is not supported—Windows 10 or later is required.
   - Ensure you downloaded the correct 32-bit or 64-bit version for your system.
-  - On first launch, the app extracts bundled files, which can take up to several tens of seconds.
 - Mac: very slow on first launch, normal afterward
   - On first launch, the app extracts bundled files, which can take up to several tens of seconds.

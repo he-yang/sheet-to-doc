@@ -73,6 +73,7 @@ Example 2:
 
 Download sample Word template file: [sample1-doc.docx](_static/sample1-doc.docx)
 
+---
 
 <div class="word-document">
 
@@ -99,6 +100,8 @@ Best regards,
 WTSolutions
 
 </div>
+
+---
 
 
 
@@ -131,6 +134,8 @@ Example:
 
 Download sample generated document: [sample1-report.docx](_static/sample1-report.docx)
 
+---
+
 <div class="word-document">
 
 Subject: Visit Notification: A Colleague Will Visit Tomorrow
@@ -157,6 +162,7 @@ WTSolutions
 
 </div>
 
+---
 
 ## Need Help?
 

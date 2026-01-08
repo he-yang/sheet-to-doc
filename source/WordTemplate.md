@@ -45,18 +45,27 @@ Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender
 
 In the Word template, you can insert the following placeholders:
 
+---
 <div class="word-document">
 
 {Name},{Age},{Gender}.
 
 </div>
 
+---
+
 When the tool runs, it will fill these placeholders with data from the Excel spreadsheet.
+
+---
 <div class="word-document">
 
 Zhang San,25,Male.
 
 </div>
+
+---
+
+
 
 ### Loop Placeholders
 
@@ -85,6 +94,7 @@ Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender
 
 In the Word template, you can insert the following placeholders:
 
+---
 <div class="word-document">
 
 {#data}
@@ -94,8 +104,11 @@ In the Word template, you can insert the following placeholders:
 {/data}
 </div>
 
+---
+
 When the tool runs, it will loop through the data in the Excel spreadsheet and fill these placeholders row by row.
 
+---
 <div class="word-document">
 
 Zhang San,25,Male.
@@ -103,6 +116,8 @@ Zhang San,25,Male.
 Li Si,30,Female.
 
 </div>
+
+---
 
 #### Loop Placeholder 2
 
@@ -143,6 +158,7 @@ The following explains Generation Mode 1 and Generation Mode 2 separately.
 
 In the Word template prepared for Generation Mode 1, you can insert the following placeholders:
 
+---
 <div class="word-document">
 
 {#info}
@@ -153,13 +169,18 @@ In the Word template prepared for Generation Mode 1, you can insert the followin
 
 </div>
 
+---
+
 When Generation Mode 1 is selected, it will loop through the data in the Excel spreadsheet and generate 3 files.
 
+---
 <div class="word-document">
 
 Zhang San,25,Male.
 
 </div>
+
+---
 
 <div class="word-document">
 
@@ -167,17 +188,20 @@ Li Si,30,Female.
 
 </div>
 
+---
+
 <div class="word-document">
 
 Wang Wu,35,Male.
 
 </div>
 
-
+---
 
 
 In the Word template prepared for Generation Mode 2, you can insert the following placeholders:
 
+---
 <div class="word-document">
 
 {#data}
@@ -194,8 +218,11 @@ In the Word template prepared for Generation Mode 2, you can insert the followin
 
 </div>
 
+---
+
 When using Generation Mode 2, it will loop through the data in the Excel spreadsheet and fill these placeholders row by row. Finally, one file is generated.
 
+---
 <div class="word-document">
 
 Zhang San,25,Male.
@@ -206,7 +233,7 @@ Wang Wu,35,Male.
 
 </div>
 
-
+---
 
 ### Conditional Placeholders
 
@@ -232,6 +259,7 @@ Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender
 
 In the Word template, you can insert the conditional placeholder `{#Awarded}...{/Awarded}`:
 
+---
 <div class="word-document">
 
 Winners of this competition:
@@ -248,8 +276,10 @@ Winners of this competition:
 
 </div>
 
+---
 When the tool runs, it will loop through the data in the Excel spreadsheet, check if the person is an award winner, and if so, fill the placeholders; if not, it will not fill them.
 
+---
 <div class="word-document">
 
 Winners of this competition:
@@ -259,6 +289,8 @@ Zhang San,25,Male.
 Wang Wu,35,Male.
 
 </div>
+
+---
 
 #### Conditional Placeholder 2 - equal to
 
@@ -275,6 +307,7 @@ Suppose your Excel spreadsheet contains the following columns: Name, Prize.
 
 In the Word template, you can insert the conditional placeholder `{#Prize == "Watch"}...{/}`:
 
+---
 <div class="word-document">
 
 
@@ -298,12 +331,14 @@ In the Word template, you can insert the conditional placeholder `{#Prize == "Wa
 
 </div>
 
+---
 > Note: 
 > If the condition value is a number, you do not need to enclose it in double quotes.
 
 
 When the tool runs, it will loop through the data in the Excel spreadsheet, check if the person won a watch or battery bank, and if so, fill the placeholder; if not, it will not fill it.
 
+---
 <div class="word-document">
 
 
@@ -322,6 +357,7 @@ Wang Wu won a Watch.
 
 </div>
 
+---
 
 #### Conditional Placeholder 3 - Comparison
 
@@ -341,6 +377,8 @@ Suppose your Excel spreadsheet contains the following columns:
     Wang Wu    35
 ```
 
+---
+
 <div class="word-document">
 
 {#data}
@@ -355,11 +393,14 @@ Suppose your Excel spreadsheet contains the following columns:
 
 </div>
 
+---
 Note:
 - If the condition specified value is a number, no double quotes are needed, just write the number directly.
 - This example should run in Generation Mode 2 where all data is repeated in one Word document.
 
 When the tool runs, it will loop through the data in the Excel spreadsheet and check the set condition. If it is true, it will fill the placeholder; if not, it will not fill it.
+
+---
 
 <div class="word-document">
 
@@ -369,6 +410,7 @@ Wang Wu is 30 years old or above.
 
 </div>
 
+---
 
 
 ### Image Placeholders
@@ -405,6 +447,7 @@ At the same time, we need to upload the two images watch.png and batterybank.png
 
 The Word template uses the following format:
 
+---
 <div class = "word-document">
 
 {#data}
@@ -414,8 +457,11 @@ The Word template uses the following format:
 {/data}
 </div>
 
+---
+
 This will generate the following document:
 
+---
 <div class="word-document">
 
 ![watch](_static/watch.png)
@@ -424,6 +470,8 @@ This will generate the following document:
 
 
 </div>
+
+---
  
 
 ### Filters
@@ -484,6 +532,7 @@ Placeholder can appear in any position in the Word template, including but not l
 - And more...
 
 ## Notes
+
 
 - Placeholders must be enclosed in curly braces `{}`.
 - The name of the placeholder must exactly match the column header in the Excel spreadsheet, including case.
