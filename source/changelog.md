@@ -29,3 +29,12 @@
 
 - v2.5.2 (2026-1-8)
   - Optimize desktop installation version performance, solve some known problems.
+
+- v2.6.0 (2026-1-9)
+  - New: Add PWA version
+
+- v2.6.1 (2026-1-10)
+  - Optimize UI.
+
+- v2.6.2 (2026-1-10)
+  - Bug fix.

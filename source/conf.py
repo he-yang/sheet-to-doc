@@ -9,7 +9,7 @@
 project = 'Sheet to Doc'
 copyright = '2022~2026, WTSolutions'
 author = 'WTSolutions'
-release = '2.5.2.0'
+release = '2.6.2.0'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -17,19 +17,27 @@ release = '2.5.2.0'
 
 
 #  启用自动编号（关键配置：开启toctree的层级编号）
-toc_num_entries = True  # 核心：开启目录项数字编号
+toc_num_entries = False  # 核心：开启目录项数字编号
 
 extensions = [
     'myst_parser',
     'sphinx_sitemap',
-    'sphinx.ext.autodoc',
+    # 'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
     'sphinx_rtd_theme',
 ]
 
+# 启用MyST扩展
+myst_enable_extensions = [
+    # "admonitions",  # 启用提示框功能
+    "colon_fence",
+    "deflist",
+    "html_image",
+]
+
 # 3. 可选：配置编号样式（部分主题支持）
 html_theme_options = {
-    'numbered_headings': True,  # 适配 sphinx_rtd_theme 等主题的序号显示
+    'numbered_headings': False,  # 适配 sphinx_rtd_theme 等主题的序号显示
     'collapse_navigation': False,
     'sticky_navigation': True,
 }

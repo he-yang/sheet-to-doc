@@ -1,10 +1,6 @@
-# Download
+# Version and Download
 
 [中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Download.html)
-
-If you prefer to use sheet-to-doc offline (not the online version), you can install it from the following links:
-
-Offline versions are available for Windows, Mac, and Linux, can work without an internet connection.
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
@@ -19,21 +15,42 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
       (adsbygoogle = window.adsbygoogle || []).push({});
    </script>
 
-## Latest Versions
-- Web Version: v2.5.0
-- Offline Version: v2.5.2
+## Version
 
-## Windows (x32, x64)
-  - [sheet-to-doc-2.5.2-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-win-ia32.exe)
-  - [sheet-to-doc-2.5.2-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-win-x64.exe)
+Sheet to Doc currently offers `Web Version` and `Offline Desktop Version`.
 
-## Mac 
-  - [sheet-to-doc-2.5.2.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2.dmg)
+:::{include} _snippet/version.md
+:::
 
-## Linux (x64, arm64, armv7l)
-  - [sheet-to-doc-2.5.2-x64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2.AppImage)
-  - [sheet-to-doc-2.5.2-arm64](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-arm64.AppImage)
-  - [sheet-to-doc-2.5.2-armv7l](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-armv7l.AppImage) 
+### Web Version
+
+Access the web version through your browser at [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html)
+
+### Offline Desktop Version
+
+The offline desktop version needs to be downloaded and installed on your local computer, supporting Windows, Mac, and Linux.
+
+#### Windows (x32, x64)
+- Win10 and above supported.
+- [sheet-to-doc-2.5.2-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-win-ia32.exe)
+- [sheet-to-doc-2.5.2-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-win-x64.exe)
+
+#### Mac (Intel, Apple Chips)
+- MacOS 11 and above supported.
+- [sheet-to-doc-2.5.2.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2.dmg)
+
+#### Linux (x64, arm64, armv7l)
+- Supported mainstream distributions:
+  - Ubuntu 20.04 LTS and above (e.g., 22.04, 24.04);
+  - Fedora 34 and above (e.g., 35, 36, 38);
+  - Debian 11 and above (e.g., 12, 13);
+  - Linux Mint 20 and above (e.g., 21, 22);
+  - openSUSE Leap 15.3 and above (e.g., 15.4, 15.5)
+  - Other versions can also be tried
+
+- [sheet-to-doc-2.5.2-x64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2.AppImage)
+- [sheet-to-doc-2.5.2-arm64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-arm64.AppImage)
+- [sheet-to-doc-2.5.2-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.5.2-armv7l.AppImage) 
 
 ## FAQ
 
@@ -42,4 +59,4 @@ Offline versions are available for Windows, Mac, and Linux, can work without an 
   - Verify that you are not on Windows 7; it is not supported—Windows 10 or later is required.
   - Ensure you downloaded the correct 32-bit or 64-bit version for your system.
 - Mac: very slow on first launch, normal afterward
-  - On first launch, the app extracts bundled files, which can take up to several tens of seconds.
+  - This is a normal phenomenon. On first launch, the app extracts bundled files, which can take several tens of seconds.

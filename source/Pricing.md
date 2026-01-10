@@ -26,20 +26,21 @@
 
 
 
-|  | Online Version | Offline Version |
-| :--------: | :--------: | :--------: |
-| Online/Offline | Online | Offline (can work without internet) |
-| Installation | No installation required, open in browser | Download and install |
-| Update | Always the latest version when opened | Manual download and install updates |
-| Pricing Model | Subscription | Perpetual license |
-| Price | $2.66/month, $4.29/3 months, $5.59/half year, $6.99/year excluding tax| Original price $14.99, now discounted to $6.99 |
-| Valid Duration | 1 month, 3 months, half year, 1 year | Permanent, with updates |
-| Device Binding | Each subscription account can be used on up to 3 devices | Each device binds to one activation code |
+:::{include} _snippet/version.md
+:::
+
+## Pricing Models
+
+:::{note}
+Different Pricing Models for Web Version and Offline Desktop Version Installations
+- Subscription Model for Web Version
+- One-time-purchase Model for Offline Desktop Version
+:::
 
 
-### Subscribe though Paddle for Online Pro Version
+### Subscribe though Paddle for Web Pro Version
 
-The subscription is managed through [Paddle](https://paddle.com/). 
+The subscription is managed through our trusted partner [Paddle](https://paddle.com/). 
 
 #### Payment Methods
 - Paypal
@@ -59,11 +60,12 @@ The subscription is managed through [Paddle](https://paddle.com/).
 
 <button onclick='checkoutnow("pri_01ke8yc08j2afhpvjhz1jm63ej")'>Start 7 Day Free Trial Now, then USD $6.99 / year (excluding tax)</button>
 
-Notes:
+:::{note}
 1. When subscribing, please enter an accessible email address, which will be your Pro Code.
 2. 7-day free trial available, you can cancel for free before the trial ends, and the system will automatically deduct payment after the trial ends.
 3. After subscribing, the Pro Code can be used on up to 3 devices.
 4. Tax is not included in the subscription price, depending on your local tax rules.
+:::
 
 #### Cancel or Manage Subcription (Paddle)
 
@@ -72,12 +74,17 @@ You can cancel your subscription at any time. After the current billing cycle en
 [https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf](https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf)
 
 
-### Offline Pro Activation Code
+### Purchase Offline Desktop Version Pro Code
 
-Offline version installation activation code:
+Offline desktop version Pro Code:
 
 Contact he.yang@wtsolutions.cn for activation code.
 
+---
+test:(Note, do not use)
+Discount Code: 9OIYH8C4K7
+
+---
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"

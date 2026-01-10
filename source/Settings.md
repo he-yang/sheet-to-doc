@@ -1,26 +1,24 @@
-# Settings
+# Generation Settings
 
 [中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Settings.html)
 
-Sheet to Doc is a powerful tool that automatically converts Excel spreadsheets, CSV, JSON, JSONL files into professional documents. Building upon mail merge functionality, this tool has additional features.
+```{include} _snippet/intro.md
+```
 
-## Conversion Modes 
+## Generation Modes 
 
 ### Mode 1: Generate Separate Word Documents for Each Row (Recommended for New Users)
 
 - Each data row will generate a separate Word document.
-- The document filename will be automatically generated based on placeholders in the template, defaulting to sheet_to_doc_R_{row_number}_{timestamp}.docx, and can be customized.
 - This mode may generate multiple files
-   - If you use web version, the browser will pop up a reminder to download multiple files, which requires this operation.
-   - If you use desktop version, the files will be saved in the default download directory. You can set the download directory by right clicking on the page.
+   - If you use web version, the browser will pop up a reminder to download multiple files, which requires your permission.
+   - If you use desktop version, it is recommended to set the file download directory in advance by right-clicking on the page to avoid download errors.
 - This mode is recommended for all new users.
 
 ### Mode 2: Generate One Word Document for All Data
 
-- All data will be merged into a single Word document, where the corresponding data is repeatedly generated according to the placeholder design in the template.
-- The document filename will be automatically generated based on placeholders in the template, defaulting to sheet_to_doc_All_{timestamp}.docx, and can be customized.
-- This mode produce one single document.
-- Under this mode, your Word template must use Loop placeholder 1.
+- All Excel data will be written into the Word template in a loop, inside the Word document, the data will be repeatedly generated according to the placeholder design of the template, and finally a single Word document will be generated.
+- In this mode, you must use the loop placeholder 1 `{#data}..{/data}` in the template, otherwise it will cause an error. Learn how to use loop placeholder 1 in [Template Preparation](WordTemplate.md).
 
 ## Filename Settings
 
@@ -31,8 +29,8 @@ Sheet to Doc provides flexible filename customization functionality, allowing yo
 You can choose from two filename generation methods:
 
 1. **Default Filename**: The system automatically generates filenames in the following format:
-   - Mode 1: sheet_to_doc_R_{row_number}_{timestamp}.docx
-   - Mode 2: sheet_to_doc_All_{timestamp}.docx
+   - Mode 1: sheet_to_doc_R_{row_number}_{timestamp+random_number}.docx
+   - Mode 2: sheet_to_doc_All_{timestamp+random_number}.docx
 
 2. **Custom Filename**: You can customize the filename format according to your needs, including prefix, middle content (from titles in Excel data), and suffix.
 

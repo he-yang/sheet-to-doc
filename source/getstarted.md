@@ -2,9 +2,13 @@
 
 [中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/getstarted.html)
 
-Sheet to Doc is a powerful tool that automatically converts Excel spreadsheets, CSV, JSON, JSONL files into professional documents. Building upon mail merge functionality, this tool has developed additional features.
+Sheet to Doc is a powerful tool that automatically writes Excel, CSV, JSON, JSONL data into docx format Word templates, converting them into Word documents in batches.
 
-This getting started guide (this page) will walk you through the basic usage steps and provide some examples. This is a simple introductory guide to help you quickly get started with Sheet to Doc. Once you're familiar with it, you should read the detailed [Usage Instructions](Usage.md) to learn more features.
+Building on the basis of mail merge, this tool has developed more features, such as custom file names, custom file paths, embedding images, and so on.
+
+:::{attention}
+This getting started guide (this page) will walk you through the basic usage steps to help you quickly get started with Sheet to Doc. Once you're familiar with it, you are advised to read the detailed [Usage Instructions](Usage.md) for more features.
+:::
 
 ## Use Cases
 
@@ -105,13 +109,12 @@ WTSolutions
 
 
 
-### Access the Tool
+### Open Sheet to Doc
 
 You can access Sheet to Doc in the following ways:
 
-- Use a modern browser (such as Chrome, Firefox, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
-- You can change the language to English or Chinese by clicking the language switcher in the top right corner.
-- Download the tool as a desktop application for offline use. [Download](Download.md)
+1. Use a modern browser (such as Chrome, Firefox, Edge, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
+2. Download the software as a desktop application for offline use. [Download](Download.md)
 
 ### Fill in Data
 
@@ -121,7 +124,7 @@ You can access Sheet to Doc in the following ways:
 
 ### Upload Template
 
-- Upload the Word template file you prepared in step 2.
+- Upload the Word template file you prepared.
 
 
 ### Generate Documents
@@ -164,9 +167,7 @@ WTSolutions
 
 ---
 
-## Need Help?
-
-If you encounter any problems or have any questions, please send an email to he.yang@wtsolutions.cn.
-
-## Feedback
-[Click here to provide feedback](https://s.wtsolutions.cn/redirect.html#useradviceform)
+:::{note}
+The above is a simple quick start tutorial, and now you can start using Sheet to Doc to automatically generate professional documents.
+If you want to learn more features, please refer to [Usage Tutorial](Usage.md).
+:::

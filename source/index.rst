@@ -8,26 +8,73 @@ Sheet to Doc by WTSolutions, Auto Generation of Documents from Word Templates an
 
 `中文 <https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/>`_
 
-Sheet to Doc by WTSolutions is a tool that automatically generates documents from Word templates and Excel, CSV,JSON, JSONL data.
-The Service is designed to facilitate the creation of professional documents by populating Word templates with data from Excel, CSV, JSON, JSONL data. It also supports embedding images into the generated documents.
+Sheet to Doc is a powerful tool that automatically writes Excel, CSV, JSON, JSONL data into docx format Word templates, converting them into Word documents in batches.
+
+Building on the basis of mail merge, this tool has developed more features, such as custom file names, custom file paths, embedding images, and so on.
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Quick Start
+   :name: quickstart
+
+   getstarted.md
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Data Security
+   :name: safety
+
+   Safety.md
+
+
 
 .. toctree::
    :maxdepth: 3
-   :numbered:
-   :caption: Table of Contents:
-   :name: mastertoc
+   :caption: Usage Tutorial
+   :name: usagetutorial
 
-   getstarted.md
    Usage.md
    ExcelData.md
    WordTemplate.md
    Comparison.md
    Settings.md
+
+.. toctree::
+   :caption: Video Tutorials
+   :name: videotutorial
+
+
+        
+       
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Usage Examples
+   :name: examples
+
+   Examples.md
+  
+   
+.. toctree::
+   :maxdepth: 3
+   :caption: Version, Download and Pricing
+   :name: download
+
    Download.md
    Pricing.md
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Terms, Privacy and Others
+   :name: others
+
    termsofuse.md
    privacy.md
    dependencies.md
+   Contact.md
    changelog.md
 
 .. raw:: html

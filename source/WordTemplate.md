@@ -1,16 +1,21 @@
 # Word Template Preparation
 
-[中文](https://sheet-to-doc.wtsolutions.cn/zh/latest/WordTemplate.html)
+[中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/WordTemplate.html)
 
+
+```{include} _snippet/intro.md
+```
 
 ## Preparing Your Word Template
 
-> We recommend using Microsoft Word to prepare your template files. If you don't have Word, you can use other editors (such as WPS) to prepare template files.
-
+:::{hint}
+We recommend using Microsoft Word to prepare your template files. If you don't have Word, you can use other editors (such as LibreOffice Writer) to prepare template files.
+It is recommended to set the formatting when preparing the template, as Sheet to Doc only fills in data and will not change the formatting you have already set.
+:::
 
 - Create a new Word document, must be in .docx format.
 - Insert placeholders using the `{placeholder}` syntax. For detailed usage of placeholders, see the "Placeholders" section below.
-- Add any other text or formatting as needed.
+- Add any other text, images, tables, etc., as needed, and set formatting.
 - Save the template as a .docx file.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
@@ -27,15 +32,21 @@
 
 ## Placeholders
 
+Placeholders are special markers used in Word templates for inserting data. Each placeholder is enclosed by **English characters** `{` and `}` , such as `{Name}`, `{@image | _inline_image}` , etc.
+
 ### Data Placeholders
 
 | Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
 | :--- | :---: | :---: |
 | Data Placeholder | ✅ | ✅ |
 
-Placeholders are special markers used in Word templates to insert data. Each placeholder is enclosed in `{` and `}`, for example `{Name}`, `{Date of Birth}`, etc.
+Data placeholders are special markers used in Word templates for inserting data, such as `{Name}`, `{Date_of_Birth}`, etc.
 
+> You can refer to the invitation examples in [Usage Examples](Examples.md).
+
+:::{warning}
 The name of the placeholder must exactly match the column header in the Excel spreadsheet, otherwise the data will not be filled correctly.
+:::
 
 Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender.
 ```
@@ -74,15 +85,28 @@ Zhang San,25,Male.
 | Loop Placeholder 1 | ❌ | ✅ |
 | Loop Placeholder 2 | ✅ | ✅ |
 
+If your Excel spreadsheet contains multiple rows of data, and you want to:
+- Repeat filling content in the template within a single Word document, or
+- Generate multiple Word documents with each row of data occupying one page.
+
+Then you can use Loop Placeholder 1 or Loop Placeholder 2 to achieve this.
+
 #### Loop Placeholder 1
 
-The format of loop placeholders is `{#data}...{/data}`. Within `{#data}...{/data}`, you can use data placeholders such as `{Name}` to reference specific data.
+Loop Placeholder 1 is suitable for repeatedly writing each row of data from the Excel spreadsheet into a single Word document, resulting in one file.
 
-- Loop placeholders only work in Generation Mode 2 (generate one Word document for all data items).
-- If your Excel spreadsheet contains multiple rows of data, you can use loop placeholders 1 to repeatedly fill content in the template.
-- Loop placeholders 1 work only in Generation Mode 2 (generate one Word document for all data items), and if you choose Generation Mode 2, loop placeholder must be present in the template.
+The format of Loop Placeholder 1 is `{#data}...{/data}`.
 
+- Loop Placeholder 1 is fixed as `{#data}` and `{/data}`, and cannot be changed.
+- When you use Loop Placeholder 1, you must select Generation Mode 2.
 
+:::{tip}
+If you want each row of data to occupy a separate page in Word, you need to add a page break after the template, and then add `{/data}` at the beginning of the second page. You can refer to the invitation examples in the usage cases.
+:::
+
+Within `{#data}...{/data}`, you can use data placeholders and other placeholders, such as `{#data}{Name}{/data}` to reference specific data. Note that `{}` must use **English characters**.
+
+> You can refer to the invitation and award notice examples in [Usage Examples](Examples.md).
 
 Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender.
 
@@ -106,7 +130,7 @@ In the Word template, you can insert the following placeholders:
 
 ---
 
-When the tool runs, it will loop through the data in the Excel spreadsheet and fill these placeholders row by row.
+When using Generation Mode 2, it will loop through the data in the Excel spreadsheet and fill these placeholders row by row.
 
 ---
 <div class="word-document">
@@ -121,16 +145,17 @@ Li Si,30,Female.
 
 #### Loop Placeholder 2
 
-(Since version 2.4.0)
-
-
+> (Since version 2.4.0)
 
 Loop Placeholder 2 is a more general version compared to Loop Placeholder 1.
 - The format of Loop Placeholder 2 is `{#loop1}...{/loop1}`.
 - The `loop1` in Loop Placeholder 2 can be replaced with other names, such as `{#person}...{/person}`, `{#info}...{/info}`, etc., but it cannot be `{#data}` or `{/data}`.
-- Loop Placeholder 2 is relatively more complex to use. If not necessary, it is recommended to use Loop Placeholder 1.
 - Loop Placeholder 2 can take effect in both Generation Mode 1 and 2.
-- If you use Loop Placeholder 2, you need to make some considerations in Excel data preparation and Word template preparation, otherwise it will lead to data filling errors. This is explained through the following example.
+
+:::{warning}
+Loop Placeholder 2 is relatively more complex to use. If not necessary, it is recommended to use Loop Placeholder 1.
+If you use Loop Placeholder 2, you need to make some considerations in Excel data preparation and Word template preparation, otherwise it will lead to data filling errors. This is explained through the following example.
+:::
 
 We use the same example as Loop Placeholder 1, assuming your Excel spreadsheet contains the following columns: Name, Age, Gender.
 ```
@@ -139,7 +164,7 @@ We use the same example as Loop Placeholder 1, assuming your Excel spreadsheet c
     Li Si    30    Female
     Wang Wu    35    Male
 ```
-If you use Loop Placeholder 1, you can refer to the previous section. If you use Loop Placeholder 2, you need to make some considerations in Excel data preparation and Word template preparation.
+If you use Loop Placeholder 2, you need to make some considerations in Excel data preparation and Word template preparation.
 
 Excel data needs to be adjusted as follows:
 
@@ -216,6 +241,7 @@ In the Word template prepared for Generation Mode 2, you can insert the followin
 
 
 
+
 </div>
 
 ---
@@ -243,13 +269,17 @@ Wang Wu,35,Male.
 | Conditional Placeholder 2 | ✅ | ✅ |
 | Conditional Placeholder 3 | ✅ | ✅ |
 
-If your Excel spreadsheet contains conditional data, you can use conditional placeholders to fill content in the template based on conditions.
+If your Excel spreadsheet contains conditional data, you can use conditional placeholders to fill content in the template based on conditions. For example, fill content in the template only when a certain data reaches a certain value, otherwise do not fill.
 
 #### Conditional Placeholder 1 - true false
 
-> The format of conditional placeholders is `{#aCondition}...{/aCondition}`.
+The format of Conditional Placeholder 1 is `{#aCondition}...{/aCondition}`. Note that `{}` must use **English characters**.
 
-Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender, Awarded.
+- aCondition: The `aCondition` in Conditional Placeholder 1 can be any column in the Excel data, such as `Name`, `Age`, `Gender`, `Awarded`, etc.
+- Condition: The `Condition` in Conditional Placeholder 1 must be `true` or `false`.
+
+Suppose your Excel spreadsheet contains the following columns: Name, Age, Gender, Awarded (whether they won an award). We use whether they won an award as a condition to fill content in the template.
+
 ```
     Name    Age    Gender    Awarded
     Zhang San    25    Male    true
@@ -277,7 +307,8 @@ Winners of this competition:
 </div>
 
 ---
-When the tool runs, it will loop through the data in the Excel spreadsheet, check if the person is an award winner, and if so, fill the placeholders; if not, it will not fill them.
+
+When the tool runs, it will loop through the data in the Excel spreadsheet, check if the person is an award winner (based on whether the value in the `Awarded` column is `true`), and if so, fill the placeholders; if not, it will not fill them.
 
 ---
 <div class="word-document">
@@ -292,9 +323,12 @@ Wang Wu,35,Male.
 
 ---
 
-#### Conditional Placeholder 2 - equal to
+#### Conditional Placeholder 2 - equal to or not equal to specified value
 
-> The format of conditional placeholders is `{#aCondition == "value"}...{/}`.
+The format of conditional placeholders is `{#aCondition == "specifiedValue"}...{/}` or `{#aCondition != "specifiedValue"}...{/}`.
+Note that symbols like `{}`, `#`, etc. must use **English characters**.
+
+Example:
 
 Suppose your Excel spreadsheet contains the following columns: Name, Prize.
 
@@ -305,15 +339,12 @@ Suppose your Excel spreadsheet contains the following columns: Name, Prize.
     Wang Wu    Watch
 ```
 
-In the Word template, you can insert the conditional placeholder `{#Prize == "Watch"}...{/}`:
-
 ---
 <div class="word-document">
 
-
 {#data}
 
-{Name} won a {Prize}.
+{Name} won a {Prize}, as shown below:
 
 {#Prize == "Watch"}
 
@@ -332,26 +363,26 @@ In the Word template, you can insert the conditional placeholder `{#Prize == "Wa
 </div>
 
 ---
-> Note: 
-> If the condition value is a number, you do not need to enclose it in double quotes.
+:::{warning}
+- The double quotes around "Watch" and "BatteryBank" in the examples must be English double quotes.
+- If the condition value is a number, you do not need to enclose it in double quotes. Just write the number directly.
+:::
 
 
-When the tool runs, it will loop through the data in the Excel spreadsheet, check if the person won a watch or battery bank, and if so, fill the placeholder; if not, it will not fill it.
+When the tool runs, it will loop through the data in the Excel spreadsheet and check if the person won a watch or battery bank, and if so, fill the placeholder; if not, it will not fill it.
 
 ---
 <div class="word-document">
 
-
-
-Zhang San won a Watch.
+Zhang San won a Watch, as shown below:
 
 ![Watch](_static/watch.png)
 
-Li Si won a BatteryBank.
+Li Si won a BatteryBank, as shown below:
 
 ![BatteryBank](_static/batterybank.png)
 
-Wang Wu won a Watch.
+Wang Wu won a Watch, as shown below:
 
 ![Watch](_static/watch.png)
 
@@ -361,11 +392,11 @@ Wang Wu won a Watch.
 
 #### Conditional Placeholder 3 - Comparison
 
-(Since version 2.4.0)
+> (Since version 2.4.0)
 
-> The format of Conditional Placeholder 3 is `{#aCondition operator "specifiedValue"}...{/}`.
-> Operators include `>`, `>=`, `<`, `<=`.
-> Note that symbols like `{}`, `#` etc. must use **English characters**.
+The format of Conditional Placeholder 3 is `{#aCondition operator "specifiedValue"}...{/}`.
+- Operators include `>`, `>=`, `<`, `<=`.
+- Note that symbols like `{}`, `#` etc. must use **English characters**.
 
 Example:
 
@@ -394,9 +425,10 @@ Suppose your Excel spreadsheet contains the following columns:
 </div>
 
 ---
-Note:
+:::{warning}
 - If the condition specified value is a number, no double quotes are needed, just write the number directly.
 - This example should run in Generation Mode 2 where all data is repeated in one Word document.
+:::
 
 When the tool runs, it will loop through the data in the Excel spreadsheet and check the set condition. If it is true, it will fill the placeholder; if not, it will not fill it.
 
@@ -415,31 +447,40 @@ Wang Wu is 30 years old or above.
 
 ### Image Placeholders
 
-Sheet to Doc provides two methods for inserting images. Method 1 is described in the "Conditional Placeholder 2" section above, and the other method is the image placeholder method covered in this chapter.
+| Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
+| :--- | :---: | :---: |
+| Image Placeholders | ✅ | ✅ |
 
-Image placeholders are special markers used in Word templates for inserting images. Each image placeholder is enclosed by English characters `{` and `}` , such as `{@imageName | _inline_image} `, `{@imageName | _block_image} `, etc.
+> (Since version 2.2.0)
+
+Sheet to Doc provides two methods for inserting images:
+- The first method is described in the "Conditional Placeholder 2" section above (pre-inserting all possible images into the Word template and using conditions to control display).
+- The other method is the image placeholder method covered in this chapter, which dynamically inserts images by inserting special placeholders in the Word template. Images need to be uploaded to the tool in advance.
+
+Image placeholders are special markers used in Word templates for inserting images. Each image placeholder is enclosed by **English characters** `{` and `}` , such as `{@image | _inline_image} `, `{@image | _block_image:width:height} `, etc.
 
 - `_inline_image` represents an inline image, which will insert the image into the text, closely integrated with the text.
-- `_block_image` represents a block-level image, which will insert the image into a paragraph, independent of the paragraph.
-- `width` and `height` are optional parameters, used to specify the width and height of the image. If not specified, the image will be displayed at 5cm x 5cm. If specified, the unit must be in centimeters. For example, `{@imageName | _inline_image:10:10}` means to insert the image into the text, with a width of 10cm and a height of 10cm.
+- `_block_image` represents a block-level image (top and bottom wrapping), which will insert the image into a paragraph, independent of the paragraph.
+- `width` and `height` are optional parameters, used to specify the width and height of the image. If not specified, the image will be displayed at 5cm x 5cm. If specified, the unit must be in **centimeters**. For example, `{@image | _inline_image:10:10}` means to insert the image into the text, with a width of 10cm and a height of 10cm.
+- Symbols like `@`, `|`, `_` must use **English characters**, for example, in `{@image | _inline_image}`, `@`, `|`, `_` must all use **English characters**.
+
+> You can refer to the award notice examples in [Usage Examples](Examples.md).
 
 Note:
-
-- Image placeholders must start with `@` , for example `{@imageName | _inline_image}`
-- Image placeholders must include the image type ( `| _inline_image` or `| _block_image` ), otherwise the tool cannot recognize them. Note that `|` and `_` must use English characters.
+- Image placeholders must start with `@` , for example `{@image | _inline_image}`
+- Image placeholders must include the image type ( `| _inline_image` or `| _block_image` ), otherwise the tool cannot recognize them. Note that `|` and `_` must use **English characters**.
 - Image placeholders must appear as a separate line in the Word template and cannot be on the same line as other text. Otherwise, they will not display properly.
-- Image placeholders must include an image filename variable, otherwise the tool cannot recognize the image filename. For example, in `{@imageName | _inline_image}` , `imageName` is the image filename variable.  
-- The image filename must match the uploaded image filename (case-sensitive, must include extension), otherwise the tool cannot find the corresponding image file (e.g., watch.png ). Errors may occur if they contain special characters.
-- If more images are uploaded than listed in the Excel data, the tool will ignore the extra images and only use the images listed in the Excel data. If the Excel data lists an image that is not uploaded, the generated report will say "Image not uploaded, please upload"
+- Image placeholders must include an image filename variable, otherwise the tool cannot recognize the image filename. For example, in `{@image | _inline_image}` , `image` is the image filename variable.
+- The image filename must match the uploaded image filename (case-sensitive, must include extension), otherwise the tool cannot find the corresponding image file (e.g., watch.png ). The image name can contain Chinese characters, but errors may occur if it contains special characters.
 
 Example:
 
-Suppose the Excel data lists Image filename and Image Name.
+Suppose the Excel data lists Image Name and Image Chinese Name.
 
 For example:
 
 ```
-    Image_Name  Image_Filename
+    Image_Chinese_Name  Image_Filename
     Watch    watch.png
     Power_Bank    batterybank.png
 ```
@@ -459,7 +500,7 @@ The Word template uses the following format:
 
 ---
 
-This will generate the following document:
+In Generation Mode 2, this will generate the following document:
 
 ---
 <div class="word-document">
@@ -476,16 +517,17 @@ This will generate the following document:
 
 ### Filters
 
-You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`. Note that `{}` and `|` must use English characters. If the filter requires a parameter, and if this parameter is not a number, then the parameter must be enclosed in double quotes.
+You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`. Note that `{}`,`|` and `:` must use **English characters**. If the filter requires a parameter, and if this parameter is not a number, then the parameter must be enclosed in **English double quotes**.
 
+> You can refer to the receipt examples in [Usage Examples](Examples.md).
 
 #### String Filters
 
 | Filter Name | Description | Example | Output |
 |-------------|-------------|---------|--------|
-| `toUpperCase` | Converts the string to uppercase | `{Name \| toUpperCase}` | `ZHANG SAN` |
-| `toLowerCase` | Converts the string to lowercase | `{Name \| toLowerCase}` | `zhang san` |
-| `capitalize` | Capitalizes the first character of the string | `{Name \| capitalize}` | `Zhang san` |
+| `toUpperCase` | Converts English strings to uppercase | `{Name \| toUpperCase}` | `Zhang San` → `ZHANG SAN` |
+| `toLowerCase` | Converts English strings to lowercase | `{Name \| toLowerCase}` | `Zhang San` → `zhang san` |
+| `capitalize` | Capitalizes the first character of an English string | `{Name \| capitalize}` | `Zhang San` → `Zhang san` |
 
 #### Number Filters
 

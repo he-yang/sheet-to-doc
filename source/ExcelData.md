@@ -2,6 +2,9 @@
 
 [中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/ExcelData.html)
 
+```{include} _snippet/intro.md
+```
+
 ## Data Preparation
 
 Before using Sheet to Doc, you need to prepare the data that will be converted into documents.
