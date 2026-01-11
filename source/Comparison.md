@@ -25,27 +25,27 @@ After the comparison, recommendations for subsequent steps are given; however, r
    - Find the data placeholders in the Word template uploaded in Step 2, such as `{Name}`, `{Date_of_Birth}`, etc.
    - Compare the data items provided in Step 1 with the data placeholders in the Word template from Step 2
    - If the template contains a placeholder `{Name}` but Step 1 only supplies `Age` without `Name`, it is marked as a mismatch
-   - ✅ indicates a match; ❌ indicates a mismatch
+   - A Tick mark indicates a match; A Cross Mark indicates a mismatch
    - At the same time, based on the template, recommend whether to use Generation Mode 1 or Generation Mode 2
 
 - Filters comparison
    - Detect any filters in the Word template uploaded in Step 2
-   - If Sheet to Doc can process these filters, they are marked ✅
-   - If Sheet to Doc cannot process them, they are marked ❌
+   - If Sheet to Doc can process these filters, they are marked A Tick mark
+   - If Sheet to Doc cannot process them, they are marked A Cross Mark
    - Refer to [Word Template](WordTemplate.md) for supported filters
    - If the template contains no filters, you can ignore this step
 
 - Image placeholders and image comparison
    - First detect whether the Word template uploaded in Step 2 uses image placeholders
    - If placeholders exist, check whether the image data column names supplied in Step 1 match them
-      - Match → ✅
-      - Mismatch → ❌
+      - Match → A Tick mark
+      - Mismatch → A Cross Mark
    - Verify that the image type is acceptable (jpg, png, jpeg, gif, bmp)
-      - Acceptable → ✅
-      - Unacceptable → ❌
+      - Acceptable → A Tick mark
+      - Unacceptable → A Cross Mark
    - Confirm whether the image was uploaded in Step 1
-      - Uploaded → ✅
-      - Not uploaded → ❌
+      - Uploaded → A Tick mark
+      - Not uploaded → A Cross Mark
    - If the template contains no image placeholders, you can ignore this step
 
 

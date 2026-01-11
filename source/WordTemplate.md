@@ -38,7 +38,7 @@ Placeholders are special markers used in Word templates for inserting data. Each
 
 | Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
 | :--- | :---: | :---: |
-| Data Placeholder | ✅ | ✅ |
+| Data Placeholder | Y | Y |
 
 Data placeholders are special markers used in Word templates for inserting data, such as `{Name}`, `{Date_of_Birth}`, etc.
 
@@ -82,8 +82,8 @@ Zhang San,25,Male.
 
 | Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
 | :--- | :---: | :---: |
-| Loop Placeholder 1 | ❌ | ✅ |
-| Loop Placeholder 2 | ✅ | ✅ |
+| Loop Placeholder 1 | N | Y |
+| Loop Placeholder 2 | Y | Y |
 
 If your Excel spreadsheet contains multiple rows of data, and you want to:
 - Repeat filling content in the template within a single Word document, or
@@ -265,9 +265,9 @@ Wang Wu,35,Male.
 
 | Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
 | :--- | :---: | :---: |
-| Conditional Placeholder 1 | ✅ | ✅ |
-| Conditional Placeholder 2 | ✅ | ✅ |
-| Conditional Placeholder 3 | ✅ | ✅ |
+| Conditional Placeholder 1 | Y | Y |
+| Conditional Placeholder 2 | Y | Y |
+| Conditional Placeholder 3 | Y | Y |
 
 If your Excel spreadsheet contains conditional data, you can use conditional placeholders to fill content in the template based on conditions. For example, fill content in the template only when a certain data reaches a certain value, otherwise do not fill.
 
@@ -449,7 +449,7 @@ Wang Wu is 30 years old or above.
 
 | Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
 | :--- | :---: | :---: |
-| Image Placeholders | ✅ | ✅ |
+| Image Placeholders | Y | Y |
 
 > (Since version 2.2.0)
 
