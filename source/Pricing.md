@@ -87,9 +87,18 @@ You can cancel your subscription at any time. After the current billing cycle en
 
 ### Purchase Offline Desktop Version Pro Code
 
+The transaction is managed through our trusted partner [Paddle](https://paddle.com/). 
+
+#### Payment Methods
+- Paypal
+- Credit Card/Debit Card with Visa, Mastercard, American Express, Maestro, Cartes Bancaires, Dankort, UnionPay, Mada, JCB, Diners Club, and Discover.
+- Google Pay (Chrome or Android device required)
+- Apple Pay (Apple Device required)
+- BanContact in BE
+
 Offline desktop version Pro Code:
 
-Price $14.99 with Discount Code: 9OIYH8C4K7 -> $6.99
+Price $14.99 with Discount Code: `WAHS8W4L0J` -> $6.99
 
 Discount Code valid until 31st, Jan 2026.
 
@@ -97,14 +106,19 @@ Discount Code valid until 31st, Jan 2026.
 1. When purchasing, please enter an accessible email address, which will be used to receive the Pro Code.
 2. When purchasing, please enter your Device ID, which can be obtained from the topright corner of the offline installed version of Sheet to Doc.
 3. No free trial available for Offline Desktop Version, if you'd like to try the Pro Version, please try with the Web version 7-day-free-trial.
-4. The Pro Code is binded to the Device ID, and only valid on the very device.
+4. The Pro Code is binded to the Device ID, and only valid on the very same device.
 5. The Pro Code is valid for lifetime, and can be used on future updated Offline Desktop Version.
+6. This is a one-time purchase.
 :::
 
-Enter your Device ID (from the top right corner of the offline installed version of Sheet to Doc.):
+## Purchase Link
+
+Enter your Device ID (from the top right corner of the offline desktop version of Sheet to Doc.):
 
 <input id="customdata" type="text" placeholder="Enter your Device ID">
 <button onclick='checkoutnowwithcustomdata("pri_01kem3y7zgnwa7471qv9hws3qg", document.getElementById("customdata").value)'>Purchase Now</button>
 
 
 Once the transaction is completed, you will receive the Pro Code via email within serveral minutes. If not, please contact us by email he.yang@wtsolutions.cn
+
+
