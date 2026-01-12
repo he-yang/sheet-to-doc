@@ -121,4 +121,4 @@ Enter your Device ID (from the top right corner of the offline desktop version o
 
 Once the transaction is completed, you will receive the Pro Code via email within serveral minutes. If not, please contact us by email he.yang@wtsolutions.cn
 
-
+When activating the Pro Code, please enter the Pro Code in the activation area of the offline desktop version of Sheet to Doc. If fails, please try to copy the Pro Code from the email, and make sure to copy the entire Pro Code, without any extra characters. If the problem persists, please contact us by email he.yang@wtsolutions.cn
