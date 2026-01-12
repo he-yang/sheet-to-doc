@@ -65,6 +65,14 @@ Building on the basis of mail merge, this tool has developed more features, such
    Download.md
    Pricing.md
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Frequently Asked Questions
+   :name: faq
+
+   FAQ.md
+
+
 
 .. toctree::
    :maxdepth: 1

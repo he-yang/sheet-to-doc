@@ -515,6 +515,80 @@ In Generation Mode 2, this will generate the following document:
 ---
  
 
+### QRCode Placeholders
+
+| Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
+| :--- | :---: | :---: |
+| QRCode Placeholders | Y | Y |
+
+> (Since version 2.7.0)
+
+:::{hint}
+If you already have a QR code image file, you can use the image placeholder method to insert the QR code image.
+If you do not have a QR code image file, but you have the qrcode content, you can use the QR code placeholder method to generate and insert the QR code.
+:::
+
+Inserting QRCode placeholders is similar to inserting image placeholders. Placeholder used to insert QR codes is `{@QRCode_Content | _qrcode:width:height}`.
+
+- `QRCode_Content` is the variable name for the QR code content.
+- `_qrcode` means for generating QR codes and can not be changed.
+- `width` and `height` are optional parameters, used to specify the width and height of the QR code. If not specified, the QR code will be displayed at 5cm x 5cm. If specified, the unit must be in **centimeters**. For example, `{@QRCode_Content | _qrcode:10:10}` means to insert the QR code into the document, with a width of 10cm and a height of 10cm.
+- The QR code content must be a string variable or number variable, otherwise the tool cannot generate the QR code, and its length can not be longer than 200 characters.
+- The inserted QR code image will be a inline image, which will insert the image into the text, closely integrated with the text.
+- When placing QRCode placeholders, make sure they are on a separate line in the Word template. Otherwise, they will not display properly.
+
+Example:
+
+Suppose the Excel data lists Device Number.
+
+For example:
+```
+    Device_Number Device
+    EQ20303 Mouse
+    EQ20304 Keyboard    
+```
+
+At the same time, we need to upload the Word template with the placeholder `{@Device_Number | _qrcode}`.
+
+---
+<div class="word-document">
+
+{#data}
+
+{Device}
+
+{@Device_Number | _qrcode}
+
+{/data}
+
+
+</div>
+
+---
+
+
+
+
+In Generation Mode 2, this will generate the following document:
+
+---
+<div class="word-document">
+
+Mouse
+
+![qrcodemouse](_static/qrcodemouse.png)
+
+Keyboard
+
+![qrcodekeyboard](_static/qrcodekeyboard.png)
+
+</div>
+
+---
+
+
+
+
 ### Filters
 
 You can use filters to transform data in your templates. Filters are applied to placeholders using the pipe (`|`) syntax: `{placeholder | filterName}` or `{placeholder | filterName:parameter}`. Note that `{}`,`|` and `:` must use **English characters**. If the filter requires a parameter, and if this parameter is not a number, then the parameter must be enclosed in **English double quotes**.
