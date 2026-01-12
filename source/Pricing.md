@@ -33,7 +33,7 @@
 | Feature Limits | Free Version | Pro Version |
 | :--------: | :--------: | :--------: |
 | Data Length | 10 rows per time | Unlimited |
-| Image Quantity | 10 images per time | Unlimited |
+| Image Quantity (including QR Codes) | 10 images per time | Unlimited |
 
 
 
