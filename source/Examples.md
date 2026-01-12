@@ -57,6 +57,11 @@ When you encounter questions while preparing your own document templates, you ca
   - Document template: [sample-invoice-1.docx](./_static/sample-invoice-1.docx)
 
 
+## Document Generation with QR Codes (involving `Data Placeholders` and `QRCode Placeholders`)
+
+- Device QR Code (generated via Generation Mode 2) (Generate several independent device QR codes)
+  - Data source: [sample-qrcode-1.xlsx](./_static/sample-qrcode-1.xlsx)
+  - Document template: [sample-qrcode-1.docx](./_static/sample-qrcode-1.docx)
 
 
 > Note:
