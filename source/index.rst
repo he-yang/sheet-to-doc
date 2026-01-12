@@ -1,14 +1,14 @@
-.. Sheet to Doc documentation master file, created by
+.. Sheet-to-Doc documentation master file, created by
    sphinx-quickstart on Sat Dec 17 10:05:06 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Sheet to Doc by WTSolutions, Auto Generation of Documents from Word Templates and Excel, CSV,JSON, JSONL Data
+Sheet-to-Doc, Auto Generation of Documents from Word Templates and Excel, CSV,JSON, JSONL Data
 ================================================================================================================
 
 `中文 <https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/>`_
 
-Sheet to Doc is a powerful tool that automatically writes Excel, CSV, JSON, JSONL data into docx format Word templates, converting them into Word documents in batches.
+Sheet-to-Doc is a powerful tool that automatically writes Excel, CSV, JSON, JSONL data into docx format Word templates, converting them into Word documents in batches.
 
 Building on the basis of mail merge, this tool has developed more features, such as custom file names, custom file paths, embedding images, and so on.
 

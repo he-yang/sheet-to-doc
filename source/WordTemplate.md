@@ -10,7 +10,7 @@
 
 :::{hint}
 We recommend using Microsoft Word to prepare your template files. If you don't have Word, you can use other editors (such as LibreOffice Writer) to prepare template files.
-It is recommended to set the formatting when preparing the template, as Sheet to Doc only fills in data and will not change the formatting you have already set.
+It is recommended to set the formatting when preparing the template, as Sheet-to-Doc only fills in data and will not change the formatting you have already set.
 :::
 
 - Create a new Word document, must be in .docx format.
@@ -453,7 +453,7 @@ Wang Wu is 30 years old or above.
 
 > (Since version 2.2.0)
 
-Sheet to Doc provides two methods for inserting images:
+Sheet-to-Doc provides two methods for inserting images:
 - The first method is described in the "Conditional Placeholder 2" section above (pre-inserting all possible images into the Word template and using conditions to control display).
 - The other method is the image placeholder method covered in this chapter, which dynamically inserts images by inserting special placeholders in the Word template. Images need to be uploaded to the tool in advance.
 

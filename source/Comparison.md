@@ -30,8 +30,8 @@ After the comparison, recommendations for subsequent steps are given; however, r
 
 - Filters comparison
    - Detect any filters in the Word template uploaded in Step 2
-   - If Sheet to Doc can process these filters, they are marked A Tick mark
-   - If Sheet to Doc cannot process them, they are marked A Cross Mark
+   - If Sheet-to-Doc can process these filters, they are marked A Tick mark
+   - If Sheet-to-Doc cannot process them, they are marked A Cross Mark
    - Refer to [Word Template](WordTemplate.md) for supported filters
    - If the template contains no filters, you can ignore this step
 

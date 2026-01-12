@@ -17,7 +17,7 @@
 
 To facilitate everyone's use, we provide some usage examples. We will provide different examples based on different usage scenarios.
 
-When you encounter questions while preparing your own document templates, you can refer to the examples on this page to understand how to use Sheet to Doc.
+When you encounter questions while preparing your own document templates, you can refer to the examples on this page to understand how to use Sheet-to-Doc.
 
 
 ## Basic Examples

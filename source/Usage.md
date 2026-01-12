@@ -33,9 +33,9 @@ Next, you need to prepare a Word document template for generating the final docu
 For detailed instructions on Word template preparation, please refer to [Word Template](WordTemplate.md)
 :::
 
-## Open Sheet to Doc
+## Open Sheet-to-Doc
 
-You can access Sheet to Doc in the following ways:
+You can access Sheet-to-Doc in the following ways:
 
 1. Use a modern browser (such as Chrome, Firefox, Edge, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
 2. Download the tool as a desktop application for offline use (can be used without network). [Download](Download.md)
@@ -55,7 +55,7 @@ You can access Sheet to Doc in the following ways:
 ## Fill in Data
 
 - Copy data directly from your Excel spreadsheet, or from CSV, JSON, JSONL files,
-- Paste it into the "Data" field in the Sheet to Doc application
+- Paste it into the "Data" field in the Sheet-to-Doc application
 - You can view a data preview in the application.
 
 ## Upload Images (If any)

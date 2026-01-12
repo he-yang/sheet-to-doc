@@ -17,7 +17,7 @@
 
 ## Version
 
-Sheet to Doc currently offers `Web Version` and `Offline Desktop Version`.
+Sheet-to-Doc currently offers `Web Version` and `Offline Desktop Version`.
 
 :::{include} _snippet/version.md
 :::

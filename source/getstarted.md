@@ -2,12 +2,12 @@
 
 [中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/getstarted.html)
 
-Sheet to Doc is a powerful tool that automatically writes Excel, CSV, JSON, JSONL data into docx format Word templates, converting them into Word documents in batches.
+Sheet-to-Doc is a powerful tool that automatically writes Excel, CSV, JSON, JSONL data into docx format Word templates, converting them into Word documents in batches.
 
 Building on the basis of mail merge, this tool has developed more features, such as custom file names, custom file paths, embedding images, and so on.
 
 :::{attention}
-This getting started guide (this page) will walk you through the basic usage steps to help you quickly get started with Sheet to Doc. Once you're familiar with it, you are advised to read the detailed [Usage Instructions](Usage.md) for more features.
+This getting started guide (this page) will walk you through the basic usage steps to help you quickly get started with Sheet-to-Doc. Once you're familiar with it, you are advised to read the detailed [Usage Instructions](Usage.md) for more features.
 :::
 
 ## Use Cases
@@ -109,9 +109,9 @@ WTSolutions
 
 
 
-### Open Sheet to Doc
+### Open Sheet-to-Doc
 
-You can access Sheet to Doc in the following ways:
+You can access Sheet-to-Doc in the following ways:
 
 1. Use a modern browser (such as Chrome, Firefox, Edge, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
 2. Download the software as a desktop application for offline use. [Download](Download.md)
@@ -119,7 +119,7 @@ You can access Sheet to Doc in the following ways:
 ### Fill in Data
 
 - Copy data directly from your Excel spreadsheet.
-- Paste it into the "Data" field in the Sheet to Doc web application.
+- Paste it into the "Data" field in the Sheet-to-Doc web application.
 - You can view a data preview in the web application.
 
 ### Upload Template
@@ -168,6 +168,6 @@ WTSolutions
 ---
 
 :::{note}
-The above is a simple quick start tutorial, and now you can start using Sheet to Doc to automatically generate professional documents.
+The above is a simple quick start tutorial, and now you can start using Sheet-to-Doc to automatically generate professional documents.
 If you want to learn more features, please refer to [Usage Tutorial](Usage.md).
 :::

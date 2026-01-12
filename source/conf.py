@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Sheet to Doc'
+project = 'Sheet-to-Doc'
 copyright = '2022~2026, WTSolutions'
 author = 'WTSolutions'
 release = '2.6.3.0'

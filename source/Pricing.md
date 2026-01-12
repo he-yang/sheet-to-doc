@@ -12,7 +12,7 @@
   }
   function checkoutnowwithcustomdata(priceId, customData){
     if (!customData) {
-      alert("Please enter your Device ID, which can be obtained from the topright corner of the offline installed version of Sheet to Doc.");
+      alert("Please enter your Device ID, which can be obtained from the topright corner of the offline installed version of Sheet-to-Doc.");
       return;
     }
     Paddle.Checkout.open({
@@ -104,7 +104,7 @@ Discount Code valid until 31st, Jan 2026.
 
 :::{note}
 1. When purchasing, please enter an accessible email address, which will be used to receive the Pro Code.
-2. When purchasing, please enter your Device ID, which can be obtained from the topright corner of the offline installed version of Sheet to Doc.
+2. When purchasing, please enter your Device ID, which can be obtained from the topright corner of the offline installed version of Sheet-to-Doc.
 3. No free trial available for Offline Desktop Version, if you'd like to try the Pro Version, please try with the Web version 7-day-free-trial.
 4. The Pro Code is binded to the Device ID, and only valid on the very same device.
 5. The Pro Code is valid for lifetime, and can be used on future updated Offline Desktop Version.
@@ -113,7 +113,7 @@ Discount Code valid until 31st, Jan 2026.
 
 ## Purchase Link
 
-Enter your Device ID (from the top right corner of the offline desktop version of Sheet to Doc.):
+Enter your Device ID (from the top right corner of the offline desktop version of Sheet-to-Doc.):
 
 <input id="customdata" type="text" placeholder="Enter your Device ID">
 <button onclick='checkoutnowwithcustomdata("pri_01kem3y7zgnwa7471qv9hws3qg", document.getElementById("customdata").value)'>Purchase Now</button>
@@ -121,4 +121,4 @@ Enter your Device ID (from the top right corner of the offline desktop version o
 
 Once the transaction is completed, you will receive the Pro Code via email within serveral minutes. If not, please contact us by email he.yang@wtsolutions.cn
 
-When activating the Pro Code, please enter the Pro Code in the activation area of the offline desktop version of Sheet to Doc. If fails, please try to copy the Pro Code from the email, and make sure to copy the entire Pro Code, without any extra characters. If the problem persists, please contact us by email he.yang@wtsolutions.cn
+When activating the Pro Code, please enter the Pro Code in the activation area of the offline desktop version of Sheet-to-Doc. If fails, please try to copy the Pro Code from the email, and make sure to copy the entire Pro Code, without any extra characters. If the problem persists, please contact us by email he.yang@wtsolutions.cn

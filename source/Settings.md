@@ -22,7 +22,7 @@
 
 ## Filename Settings
 
-Sheet to Doc provides flexible filename customization functionality, allowing you to set the filenames of the generated documents according to your needs.
+Sheet-to-Doc provides flexible filename customization functionality, allowing you to set the filenames of the generated documents according to your needs.
 
 ### Filename Generation Methods
 
