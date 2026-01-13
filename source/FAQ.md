@@ -30,3 +30,11 @@
   - Mode 1 generates multiple files, each containing part of the content.
 - Please check which generation mode you are using.
 - When downloading multiple files, the browser usually asks for permission to download multiple files; you need to allow it.
+
+## Data Related Issues
+1. I pasted data, but it says there is an error, what should I do?
+- Please check if the pasted data meets the requirements, for example:
+  - Does the data contain a header row?
+  - Does the data contain empty rows?
+  - Does the data contain special characters?
+- If the data meets the requirements, it may be a problem with the data content. Please check the specific rows where the error occurs and try to remove that row to see if the error is resolved.

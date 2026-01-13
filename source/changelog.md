@@ -41,3 +41,9 @@
 
 - v2.6.3 (2026-1-11)
   - Optimize UI.
+
+- v2.7.0 (2026-1-12)
+  - New: Add QR code placeholder
+
+- v2.7.1 (2026-1-13)
+  - Bug fix
