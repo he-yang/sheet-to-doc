@@ -17,14 +17,22 @@
 
 ## Version
 
-Sheet-to-Doc currently offers `Web Version` and `Offline Desktop Version`.
+Sheet-to-Doc currently offers `Web Version`, `PWA Version`, and `Offline Desktop Version`.
 
 :::{include} _snippet/version.md
 :::
 
 ### Web Version
 
-Access the web version through your browser at [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html)
+Access the web version through your browser at [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
+
+### PWA Version
+
+The PWA version is a Progressive Web App that can be installed on your device. It works offline and provides a native app-like experience.
+
+To install the PWA version:
+1. On Windows, open Microsoft Store, search for "Sheet-to-Doc", and click "Get".
+
 
 ### Offline Desktop Version
 

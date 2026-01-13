@@ -43,13 +43,13 @@
 ## Pricing Models
 
 :::{note}
-Different Pricing Models for Web Version and Offline Desktop Version Installations
-- Subscription Model for Web Version
+Different Pricing Models for Web Version, PWA Version, and Offline Desktop Version Installations
+- Subscription Model for Web Version and PWA Version
 - One-time-purchase Model for Offline Desktop Version
 :::
 
 
-### Subscribe though Paddle for Web Pro Version
+### Subscribe though Paddle for Web and PWA Pro Version
 
 The subscription is managed through our trusted partner [Paddle](https://paddle.com/). 
 
