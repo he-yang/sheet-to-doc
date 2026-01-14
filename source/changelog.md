@@ -47,3 +47,6 @@
 
 - v2.7.1 (2026-1-13)
   - Bug fix
+
+- v2.7.2 (2026-1-14)
+  - New: Add Adsterra ads, update privacy policy

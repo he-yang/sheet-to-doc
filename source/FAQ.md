@@ -38,3 +38,4 @@
   - Does the data contain empty rows?
   - Does the data contain special characters?
 - If the data meets the requirements, it may be a problem with the data content. Please check the specific rows where the error occurs and try to remove that row to see if the error is resolved.
+- In addition to manual checking, we highly recommend using Excel's built-in error checking feature to verify the data. In Excel's formula bar, there is an error check button.

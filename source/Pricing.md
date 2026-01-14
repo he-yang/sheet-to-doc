@@ -1,5 +1,9 @@
 # Pricing
 
+[中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Pricing.html)
+
+
+
 <script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
 <script type="text/javascript">
   Paddle.Initialize({ 

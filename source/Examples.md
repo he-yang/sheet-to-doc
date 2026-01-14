@@ -1,5 +1,7 @@
 # Usage Examples
 
+[中文](https://sheet-to-doc.wtsolutions.cn/zh/latest/Examples.html)
+
 ```{include} _snippet/intro.md
 ```
 

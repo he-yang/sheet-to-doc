@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** 2026-01-06
+**Effective Date:** 2026-01-14
 
 
 
@@ -75,7 +75,7 @@ Cloudflare Web Analytics is designed to prioritize user privacy. It collects the
 
 For more information about Cloudflare Web Analytics and their privacy practices, please visit [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
-The **Sheet-to-Doc** Service also uses **Google AdSense** to display advertisements. Google AdSense uses cookies and other technologies to collect data about users for advertising purposes.
+The **Sheet-to-Doc** Service also uses **Google AdSense** and ***Adsterra*** to display advertisements. Google AdSense and Adsterra use cookies and other technologies to collect data about users for advertising purposes.
 
 ### What Data is Collected by Google AdSense?
 Google AdSense collects the following information to provide personalized advertising:
@@ -92,6 +92,20 @@ Google AdSense collects the following information to provide personalized advert
 - No personal information beyond standard web analytics data
 
  For more information about how Google uses data, please visit [Google's Privacy & Terms](https://policies.google.com/privacy).
+
+### What Data is Collected by Adsterra?
+Adsterra collects pseudonymous information linked to browsing events and cookies to help serve the ads:
+- Pseudonymous universally unique identifier (UID)
+- Pseudonymous' device and browser (User agent)
+- Time stamp (Date, Time)
+- Number of Impressions, Clicks
+
+### What Data is NOT Collected by Adsterra?
+- No data from your generated Word documents is shared with Adsterra
+- No sensitive business data from Excel/Word processing
+- No personal information beyond standard web analytics data
+
+For more information about how Adsterra uses data, please visit [Adsterra's Privacy & Terms](https://adsterra.com/privacy-policy-managed/), as well as their cookie policy [Adsterra's Cookie Policy](https://adsterra.com/cookies/).
 
 ## Changes to This Privacy Policy
 

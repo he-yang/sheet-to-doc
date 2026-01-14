@@ -1,4 +1,7 @@
 # Data Security
+[中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Safety.html)
+
+
 
 Your data security is our top priority.
 
