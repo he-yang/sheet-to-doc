@@ -39,3 +39,11 @@
   - Does the data contain special characters?
 - If the data meets the requirements, it may be a problem with the data content. Please check the specific rows where the error occurs and try to remove that row to see if the error is resolved.
 - In addition to manual checking, we highly recommend using Excel's built-in error checking feature to verify the data. In Excel's formula bar, there is an error check button.
+
+## Download Offline Desktop Version
+1. Nothing happens after double-clicking the Windows installer
+  - Check if Windows Defender has blocked the file.
+  - Verify that you are not on Windows 7; it is not supported—Windows 10 or later is required.
+  - Ensure you downloaded the correct 32-bit or 64-bit version for your system.
+2. Mac: very slow on first launch, normal afterward
+  - This is a normal phenomenon. On first launch, the app extracts bundled files, which can take several tens of seconds.

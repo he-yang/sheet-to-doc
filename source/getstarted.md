@@ -115,6 +115,7 @@ You can access Sheet-to-Doc in the following ways:
 
 1. Use a modern browser (such as Chrome, Firefox, Edge, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
 2. Download the software as a desktop application for offline use. [Download](Download.md)
+3. Use the addin version in Excel or WPS. [Download](Download.md)
 
 ### Fill in Data
 
@@ -171,3 +172,7 @@ WTSolutions
 The above is a simple quick start tutorial, and now you can start using Sheet-to-Doc to automatically generate professional documents.
 If you want to learn more features, please refer to [Usage Tutorial](Usage.md).
 :::
+
+## Video quickstart guide
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1jymEEgGLps?si=MRccqJm_8Ym-Ncyx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

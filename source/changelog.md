@@ -50,3 +50,6 @@
 
 - v2.7.2 (2026-1-14)
   - New: Add Adsterra ads, update privacy policy
+
+- v2.8.0 (2026-1-16)
+  - Add addin version, support Excel and WPS

@@ -30,6 +30,12 @@ When you encounter questions while preparing your own document templates, you ca
   - Data source: [sample-invitation-12.xlsx](./_static/sample-invitation-12.xlsx)
   - Document template: [sample-invitation-1.docx](./_static/sample-invitation-1.docx)
 
+> Video Guide for Invitation 1 Example:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1jymEEgGLps?si=MRccqJm_8Ym-Ncyx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 - Invitation 2 (generated via Generation Mode 2) (Generate a single Word document containing all invitations, one invitation per page)
   - Data source: [sample-invitation-12.xlsx](./_static/sample-invitation-12.xlsx)
   - Document template: [sample-invitation-2.docx](./_static/sample-invitation-2.docx)

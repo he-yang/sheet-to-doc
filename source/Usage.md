@@ -39,6 +39,7 @@ You can access Sheet-to-Doc in the following ways:
 
 1. Use a modern browser (such as Chrome, Firefox, Edge, Safari) to visit [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
 2. Download the tool as a desktop application for offline use (can be used without network). [Download](Download.md)
+3. Use the addin version in Excel or WPS. [Download](Download.md)
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>

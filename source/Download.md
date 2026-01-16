@@ -17,7 +17,7 @@
 
 ## Version
 
-Sheet-to-Doc currently offers `Web Version`, `PWA Version`, and `Offline Desktop Version`.
+Sheet-to-Doc currently offers `Web Version`, `PWA Version`, `Addin Version`, and `Offline Desktop Version`.
 
 :::{include} _snippet/version.md
 :::
@@ -33,6 +33,13 @@ The PWA version is a Progressive Web App that can be installed on your device. I
 To install the PWA version:
 1. On Windows, open Microsoft Store, search for "Sheet-to-Doc", and click "Get".
 
+### Addin Version
+
+The addin version is available for Excel and WPS tables. It allows you to use Sheet-to-Doc directly within your spreadsheets.
+
+To install the addin version:
+- Excel: to be released
+- WPS: [Follow this guide](https://s.wtsolutions.cn/s2d-addin/publish.html) This guide is only avalible in Simplified Chinese.
 
 ### Offline Desktop Version
 
