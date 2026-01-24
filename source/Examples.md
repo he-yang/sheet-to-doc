@@ -40,6 +40,10 @@ When you encounter questions while preparing your own document templates, you ca
   - Data source: [sample-invitation-12.xlsx](./_static/sample-invitation-12.xlsx)
   - Document template: [sample-invitation-2.docx](./_static/sample-invitation-2.docx)
 
+> Video Guide for Invitation 2 Example:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RPfWgSDwkZs?si=6bVyyKtKYJ1g_s6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 
 ## Document Generation with Images (involving `Data Placeholders`, `Image Placeholders` and `Loop Placeholder 1`)
