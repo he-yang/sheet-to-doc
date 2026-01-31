@@ -3,18 +3,6 @@
 [中文](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Download.html)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
-     crossorigin="anonymous"></script>
-   <ins class="adsbygoogle"
-      style="display:block; text-align:center;"
-      data-ad-layout="in-article"
-      data-ad-format="fluid"
-      data-ad-client="ca-pub-8772217510669640"
-      data-ad-slot="2653271427"></ins>
-   <script>
-      (adsbygoogle = window.adsbygoogle || []).push({});
-   </script>
-
 ## Version
 
 Sheet-to-Doc currently offers `Web Version`, `PWA Version`, `Addin Version`, and `Offline Desktop Version`.
@@ -47,12 +35,12 @@ The offline desktop version needs to be downloaded and installed on your local c
 
 #### Windows (x32, x64)
 - Win10 and above supported.
-- [sheet-to-doc-2.8.2-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.2-win-ia32.exe)
-- [sheet-to-doc-2.8.2-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.2-win-x64.exe)
+- [sheet-to-doc-2.8.3-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.3-win-ia32.exe)
+- [sheet-to-doc-2.8.3-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.3-win-x64.exe)
 
 #### Mac (Intel, Apple Chips)
 - MacOS 11 and above supported.
-- [sheet-to-doc-2.8.2.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.2.dmg)
+- [sheet-to-doc-2.8.3.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.3.dmg)
 
 #### Linux (x64, arm64, armv7l)
 - Supported mainstream distributions:
@@ -63,9 +51,9 @@ The offline desktop version needs to be downloaded and installed on your local c
   - openSUSE Leap 15.3 and above (e.g., 15.4, 15.5)
   - Other versions can also be tried
 
-- [sheet-to-doc-2.8.2-x64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.2.AppImage)
-- [sheet-to-doc-2.8.2-arm64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.2-arm64.AppImage)
-- [sheet-to-doc-2.8.2-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.2-armv7l.AppImage) 
+- [sheet-to-doc-2.8.3-x64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.3.AppImage)
+- [sheet-to-doc-2.8.3-arm64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.3-arm64.AppImage)
+- [sheet-to-doc-2.8.3-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.8.3-armv7l.AppImage) 
 
 ## FAQ
 
