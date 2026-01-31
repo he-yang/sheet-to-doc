@@ -34,6 +34,8 @@ You can choose from two filename generation methods:
 
 2. **Custom Filename**: You can customize the filename format according to your needs, including prefix, middle content (from titles in Excel data), and suffix.
 
+
+
 ### Custom Filename Settings
 
 When selecting the custom filename method, you can set the following options:
@@ -43,6 +45,15 @@ When selecting the custom filename method, you can set the following options:
 - **Suffix**: The ending part of the filename, which can be any text or empty.
 
 The final filename format is: `[Prefix][Middle][Suffix].docx`
+
+
+Custom filenames have the following limitations:
+
+- The total length of prefix, middle, and suffix cannot exceed 200 characters.
+- Special characters such as `/`, `\`, `*`, `?`, `<`, `>`, `|` are not allowed in filenames. They will be automatically replaced with underscores `_`.
+- Spaces in filenames are not allowed. They will be automatically replaced with underscores `_`.
+
+
 
 ### Filename Preview
 
