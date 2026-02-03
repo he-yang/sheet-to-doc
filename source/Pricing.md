@@ -104,7 +104,7 @@ Offline desktop version Pro Code:
 
 Price $14.99 with Discount Code: `WAHS8W4L0J` -> $6.99
 
-Discount Code valid until 31st, Jan 2026.
+Discount Code valid until 28, Feb 2026.
 
 :::{note}
 1. When purchasing, please enter an accessible email address, which will be used to receive the Pro Code.
