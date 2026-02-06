@@ -53,3 +53,6 @@
 
 - v2.8.0 (2026-1-16)
   - Add addin version, support Excel and WPS
+
+- v2.9.0 (2026-2-6)
+  - Fix WPS plugin version link issue, update reminder for complex data structure, update UI, remove Adsterra ads

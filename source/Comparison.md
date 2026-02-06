@@ -11,6 +11,12 @@
 Step 2.1 Data Comparison is optional and can be skipped.
 :::
 
+:::{hint}
+Complex data structures are not supported for comparison. You can skip the comparison step and proceed to document generation. On the other hand, simple data structures are supported.
+:::
+
+
+
 > (Since version 2.1.0.0)
 
 Step 2.1 Data Comparison is optional and can be skipped.

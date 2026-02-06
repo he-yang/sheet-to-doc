@@ -41,7 +41,7 @@ You can choose from two filename generation methods:
 When selecting the custom filename method, you can set the following options:
 
 - **Prefix**: The beginning part of the filename, which can be any text or empty.
-- **Middle (from Excel data titles)**: Select a column from the Excel data as the middle part of the filename.
+- **Middle (from Excel data titles)**: Select a column from the Excel data as the middle part of the filename. If it is a complex data structure, the middle dropdown menu will be disabled, and only simple data structures are supported.
 - **Suffix**: The ending part of the filename, which can be any text or empty.
 
 The final filename format is: `[Prefix][Middle][Suffix].docx`
