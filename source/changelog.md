@@ -56,3 +56,6 @@
 
 - v2.9.0 (2026-2-6)
   - Fix WPS plugin version link issue, update reminder for complex data structure, update UI, remove Adsterra ads
+
+- v2.10.0 (2026-2-14)
+  - Add Pro Feature: Customize Last modified by.

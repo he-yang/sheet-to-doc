@@ -38,6 +38,7 @@
 | :--------: | :--------: | :--------: |
 | Data Length | 10 rows per time | Unlimited |
 | Image Quantity (including QR Codes) | 10 images per time | Unlimited |
+| Pro Feature: Customize Last modified by | No | Yes |
 
 
 

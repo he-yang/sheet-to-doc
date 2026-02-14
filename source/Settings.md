@@ -104,3 +104,38 @@ Here are several actual examples of custom filenames to help you better understa
       (adsbygoogle = window.adsbygoogle || []).push({});
    </script>
 
+
+
+## "Last modified by" Settings
+
+Sheet-to-Doc provides a "Last modified by" feature that allows you to customize the author information displayed in the generated Word documents.
+
+### Options
+- Use default value: "Sheet-to-Doc Batch Generated, https://s.wtsolutions.cn/sheet-to-doc.html"
+- [Pro Feature](Pricing.md) Same as "Last Modified By" in template file
+- [Pro Feature](Pricing.md) Custom value: Enter a custom author name or identifier.
+
+### Examples
+
+#### Example 1: Using Company Name
+
+- **Last modified by**: `ABC Company`
+- **Result**: All generated documents will show "ABC Company" as the last modifier.
+
+#### Example 2: Using Department Name
+
+- **Last modified by**: `Human Resources Department`
+- **Result**: All generated documents will show "Human Resources Department" as the last modifier.
+
+#### Example 3: Using Specific Author Name
+
+- **Last modified by**: `John Doe`
+- **Result**: All generated documents will show "John Doe" as the last modifier.
+
+### Notes
+
+- The "Last modified by" value is stored in the Word document's properties and will be visible in the document information panel.
+- This setting applies to all documents generated in the current session.
+- If you generate documents in batch mode, all documents will use the same "Last modified by" value.
+- The maximum length for this field is 255 characters.
+- Special characters are allowed, but it's recommended to use standard text for compatibility.
