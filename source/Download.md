@@ -35,12 +35,12 @@ The offline desktop version needs to be downloaded and installed on your local c
 
 #### Windows (x32, x64)
 - Win10 and above supported.
-- [sheet-to-doc-2.9.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.9.0-win-ia32.exe)
-- [sheet-to-doc-2.9.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.9.0-win-x64.exe)
+- [sheet-to-doc-2.10.0-win-ia32.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.10.0-win-ia32.exe)
+- [sheet-to-doc-2.10.0-win-x64.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.10.0-win-x64.exe)
 
 #### Mac (Intel, Apple Chips)
 - MacOS 11 and above supported.
-- [sheet-to-doc-2.9.0.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.9.0.dmg)
+- [sheet-to-doc-2.10.0.dmg](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.10.0.dmg)
 
 #### Linux (x64, arm64, armv7l)
 - Supported mainstream distributions:
@@ -51,9 +51,9 @@ The offline desktop version needs to be downloaded and installed on your local c
   - openSUSE Leap 15.3 and above (e.g., 15.4, 15.5)
   - Other versions can also be tried
 
-- [sheet-to-doc-2.9.0-x64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.9.0.AppImage)
-- [sheet-to-doc-2.9.0-arm64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.9.0-arm64.AppImage)
-- [sheet-to-doc-2.9.0-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.9.0-armv7l.AppImage) 
+- [sheet-to-doc-2.10.0-x64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.10.0.AppImage)
+- [sheet-to-doc-2.10.0-arm64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.10.0-arm64.AppImage)
+- [sheet-to-doc-2.10.0-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.10.0-armv7l.AppImage) 
 
 ## FAQ
 
