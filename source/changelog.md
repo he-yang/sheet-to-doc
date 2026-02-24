@@ -59,3 +59,6 @@
 
 - v2.10.0 (2026-2-14)
   - Add Pro Feature: Customize Last modified by.
+
+- v2.10.1 (2026-2-24)
+  - Add error alert when generating docs.
