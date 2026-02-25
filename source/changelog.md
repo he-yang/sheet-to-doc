@@ -62,3 +62,6 @@
 
 - v2.10.1 (2026-2-24)
   - Add error alert when generating docs.
+  
+- v2.11.0 (2026-2-25)
+  - Add Pro Feature: Handle large data sets.

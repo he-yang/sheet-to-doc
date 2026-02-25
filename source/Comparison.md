@@ -33,6 +33,9 @@ After the comparison, recommendations for subsequent steps are given; however, r
    - If the template contains a placeholder `{Name}` but Step 1 only supplies `Age` without `Name`, it is marked as a mismatch
    - A Tick mark indicates a match; A Cross Mark indicates a mismatch
    - At the same time, based on the template, recommend whether to use Generation Mode 1 or Generation Mode 2
+   - Only compare the first 50 rows of data
+
+
 
 - Filters comparison
    - Detect any filters in the Word template uploaded in Step 2
