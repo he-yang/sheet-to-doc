@@ -65,3 +65,6 @@
   
 - v2.11.0 (2026-2-25)
   - Add Pro Feature: Handle large data sets.
+
+- v2.11.1 (2026-2-28)
+  - Add support for checking Excel data and adding error reminders
