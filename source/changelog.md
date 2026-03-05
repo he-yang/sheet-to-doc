@@ -68,3 +68,6 @@
 
 - v2.11.1 (2026-2-28)
   - Add support for checking Excel data and adding error reminders
+
+- v2.11.2 (2026-3-5)
+  - limiting special characters in header, limiting max size of number
