@@ -71,3 +71,6 @@
 
 - v2.11.2 (2026-3-5)
   - limiting special characters in header, limiting max size of number
+
+- v2.11.3 (2026-3-25)
+  - handle images with filename in Chinese characters
