@@ -105,7 +105,7 @@ Offline desktop version Pro Code:
 
 Price $14.99 with Discount Code: `WCTJM6ZAMM` -> $7.99
 
-Discount Code valid until 31, March 2026.
+Discount Code valid until 30, April 2026.
 
 :::{note}
 1. When purchasing, please enter an accessible email address, which will be used to receive the Pro Code.
