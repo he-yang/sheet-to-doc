@@ -74,3 +74,6 @@
 
 - v2.11.3 (2026-3-25)
   - handle images with filename in Chinese characters
+
+- v2.11.4 (2026-4-3)
+  - Update UI
