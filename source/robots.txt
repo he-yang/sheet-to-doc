@@ -1,4 +1,5 @@
-User-agent: *
+User-Agent: *
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
 Allow: /
 Sitemap: https://sheet-to-doc.wtsolutions.cn/en/latest/sitemap.xml
 Sitemap: https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/sitemap.xml
