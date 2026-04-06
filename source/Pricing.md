@@ -4,33 +4,6 @@
 
 
 
-<script src="https://cdn.paddle.com/paddle/v2/paddle.js"></script>
-<script type="text/javascript">
-  Paddle.Initialize({ 
-    token: "live_1c12997e01d459f8b047201cd55"
-  });
-  function checkoutnow(priceId){
-    Paddle.Checkout.open({
-        items: [{priceId: priceId,quantity: 1}]
-    });  
-  }
-  function checkoutnowwithcustomdata(priceId, customData){
-    if (!customData) {
-      alert("Please enter your Device ID, which can be obtained from the topright corner of the offline installed version of Sheet-to-Doc.");
-      return;
-    }
-    Paddle.Checkout.open({
-        items: [{priceId: priceId,quantity: 1}],
-        customData : {
-          machine_id: customData
-        }
-    });  
-  }
-</script>
-
-
-
-
 ## Software Versions
 
 
@@ -39,8 +12,6 @@
 | Data Length | 10 rows per time | Unlimited |
 | Image Quantity (including QR Codes) | 10 images per time | Unlimited |
 | Pro Feature: Customize Last modified by | No | Yes |
-
-
 
 :::{include} _snippet/version.md
 :::
@@ -54,27 +25,29 @@ Different Pricing Models for Web Version, PWA Version, Addin Version, and Offlin
 :::
 
 
-### Subscribe though Paddle for Web, PWA Pro, and Addin Pro Version
+### Subscribe though Stripe for Web, PWA Pro, and Addin Pro Version
 
-The subscription is managed through our trusted partner [Paddle](https://paddle.com/). 
+The subscription is managed through our trusted partner [Stripe](https://stripe.com/). 
 
 #### Payment Methods
-- Paypal
 - Credit Card/Debit Card with Visa, Mastercard, American Express, Maestro, Cartes Bancaires, Dankort, UnionPay, Mada, JCB, Diners Club, and Discover.
 - Google Pay (Chrome or Android device required)
 - Apple Pay (Apple Device required)
-- BanContact in BE
 
 
 #### Subscription links
 
-<button onclick='checkoutnow("pri_01ke8y2d2emyfgq1xnjwtk88eb")'>Start 7 Day Free Trial Now, then USD $2.66 / month (excluding tax)</button>
+- Start 7 Day Free Trial Now, then USD $2.66 / month (excluding tax)
+[https://buy.stripe.com/fZudR899VaBedoC63g3Je0v](https://buy.stripe.com/fZudR899VaBedoC63g3Je0v)
 
-<button onclick='checkoutnow("pri_01ke8y6dzhk312g4g11rwdt54r")'>Start 7 Day Free Trial Now, then USD $4.29 / 3 months (excluding tax)</button>
+- Start 7 Day Free Trial Now, then USD $4.29 / 3 months (excluding tax)
+[https://buy.stripe.com/bJe9ASgCn7p298mdvI3Je0y](https://buy.stripe.com/bJe9ASgCn7p298mdvI3Je0y)
 
-<button onclick='checkoutnow("pri_01ke8y8kezwcp0a9k6aqv7z0sy")'>Start 7 Day Free Trial Now, then USD $5.59 / 6 months (excluding tax)</button>
+- Start 7 Day Free Trial Now, then USD $5.59 / 6 months (excluding tax)
+[https://buy.stripe.com/bJe7sK85RfVy98mdvI3Je0x](https://buy.stripe.com/bJe7sK85RfVy98mdvI3Je0x)
 
-<button onclick='checkoutnow("pri_01ke8yc08j2afhpvjhz1jm63ej")'>Start 7 Day Free Trial Now, then USD $6.99 / year (excluding tax)</button>
+- Start 7 Day Free Trial Now, then USD $6.99 / year (excluding tax)
+[https://buy.stripe.com/bJe9ASfyjeRu0BQfDQ3Je0w](https://buy.stripe.com/bJe9ASfyjeRu0BQfDQ3Je0w)
 
 :::{note}
 1. When subscribing, please enter an accessible email address, which will be your Pro Code.
@@ -83,29 +56,42 @@ The subscription is managed through our trusted partner [Paddle](https://paddle.
 4. Tax is not included in the subscription price, depending on your local tax rules.
 :::
 
-#### Cancel or Manage Subcription (Paddle)
+#### Cancel or Manage Subcription
 
-You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features. Management of subscription can be performed through paddle customer portal.
+You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features. Management of subscription can be performed through stripe customer portal.
 
-[https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf](https://customer-portal.paddle.com/cpl_01jxkve1dh6g9v8j172pybc4nf)
+[https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
 
 
 ### Purchase Offline Desktop Version Pro Code
 
-The transaction is managed through our trusted partner [Paddle](https://paddle.com/). 
+The transaction is managed through our trusted partner [Stripe](https://stripe.com/). 
 
 #### Payment Methods
-- Paypal
 - Credit Card/Debit Card with Visa, Mastercard, American Express, Maestro, Cartes Bancaires, Dankort, UnionPay, Mada, JCB, Diners Club, and Discover.
 - Google Pay (Chrome or Android device required)
 - Apple Pay (Apple Device required)
-- BanContact in BE
+
+#### Payment Links
 
 Offline desktop version Pro Code:
 
-Price $14.99 with Discount Code: `WCTJM6ZAMM` -> $7.99
+- Purchase Offline Desktop Version Pro Code for a single Device:
 
-Discount Code valid until 30, April 2026.
+[https://buy.stripe.com/6oU6oG2Lx10E84ibnA3Je0z](https://buy.stripe.com/6oU6oG2Lx10E84ibnA3Je0z)
+
+Price $14.99 with Discount Code: `S2DEN202604` -> $7.99, valid until 30, April 2026.
+
+
+
+- Purchase Offline Desktop Version Pro Code for 3 Devices:
+
+[https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A](https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A)
+
+Price $44.97 with Discount Code: `3S2DEN202604` -> $14.99, valid until 30, April 2026.
+
+
+
 
 :::{note}
 1. When purchasing, please enter an accessible email address, which will be used to receive the Pro Code.
@@ -114,16 +100,8 @@ Discount Code valid until 30, April 2026.
 4. The Pro Code is binded to the Device ID, and only valid on the very same device.
 5. The Pro Code is valid for lifetime, and can be used on future updated Offline Desktop Version.
 6. This is a one-time purchase.
+7. Once the transaction is completed, you will receive the Pro Code via email within serveral minutes. If not, please contact us by email he.yang@wtsolutions.cn
+8. When activating the Pro Code, please enter the Pro Code in the activation area of the offline desktop version of Sheet-to-Doc. If fails, please try to copy the Pro Code from the email, and make sure to copy the entire Pro Code, without any extra characters. If the problem persists, please contact us by email he.yang@wtsolutions.cn
 :::
 
-## Purchase Link
 
-Enter your Device ID (from the top right corner of the offline desktop version of Sheet-to-Doc.):
-
-<input id="customdata" type="text" placeholder="Enter your Device ID">
-<button onclick='checkoutnowwithcustomdata("pri_01kem3y7zgnwa7471qv9hws3qg", document.getElementById("customdata").value)'>Purchase Now</button>
-
-
-Once the transaction is completed, you will receive the Pro Code via email within serveral minutes. If not, please contact us by email he.yang@wtsolutions.cn
-
-When activating the Pro Code, please enter the Pro Code in the activation area of the offline desktop version of Sheet-to-Doc. If fails, please try to copy the Pro Code from the email, and make sure to copy the entire Pro Code, without any extra characters. If the problem persists, please contact us by email he.yang@wtsolutions.cn
