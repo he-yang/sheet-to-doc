@@ -27,7 +27,7 @@ Different Pricing Models for Web Version, PWA Version, Addin Version, and Offlin
 
 ### Subscribe though Stripe for Web, PWA Pro, and Addin Pro Version
 
-The subscription is managed through our trusted partner [Stripe](https://stripe.com/). 
+The subscription is managed through our trusted partner [Stripe](https://stripe.com/) and [Link](https://link.com). 
 
 #### Payment Methods
 - Credit Card/Debit Card with Visa, Mastercard, American Express, Maestro, Cartes Bancaires, Dankort, UnionPay, Mada, JCB, Diners Club, and Discover.
@@ -58,14 +58,15 @@ The subscription is managed through our trusted partner [Stripe](https://stripe.
 
 #### Cancel or Manage Subcription
 
-You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features. Management of subscription can be performed through stripe customer portal.
+You can cancel your subscription at any time. After the current billing cycle ends, you will no longer have access to the pro features. Management of subscription can be performed through stripe/link customer portal.
 
-[https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00](https://billing.stripe.com/p/login/5kQ4gyadZ7p22JY3V83Je00)
+
+[https://support.link.com/questions/how-do-i-manage-or-cancel-a-subscription-when-it-is-sold-through-link?locale=en-US](https://support.link.com/questions/how-do-i-manage-or-cancel-a-subscription-when-it-is-sold-through-link?locale=en-US)
 
 
 ### Purchase Offline Desktop Version Pro Code
 
-The transaction is managed through our trusted partner [Stripe](https://stripe.com/). 
+The transaction is managed through our trusted partner [Stripe](https://stripe.com/) and [Link](https://link.com). 
 
 #### Payment Methods
 - Credit Card/Debit Card with Visa, Mastercard, American Express, Maestro, Cartes Bancaires, Dankort, UnionPay, Mada, JCB, Diners Club, and Discover.
