@@ -44,7 +44,7 @@ html_theme_options = {
 
 html_baseurl = 'https://sheet-to-doc.wtsolutions.cn/en/latest/'
 sitemap_url_scheme = "{link}"
-html_extra_path = ['robots.txt','ads.txt']
+html_extra_path = ['robots.txt','ads.txt','llms.txt']
 html_js_files = ['custom.js']
 html_css_files = ['custom.css']
 language ='en'

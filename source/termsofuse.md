@@ -1,6 +1,6 @@
 # Service Agreement
 
-**Effective Date:** 2026-01-06
+**Effective Date:** 2026-04-12
 
 
 ## Introduction
@@ -36,7 +36,7 @@ To use the Sheet-to-Doc Service, you must:
 We grant you a limited, non-exclusive, non-transferable, revocable license to use the Free version of the Sheet-to-Doc Service **solely for non-commercial, personal use only**. Commercial use of the Free version is strictly prohibited.
 
 ### Pro Version License
-For the Pro version, we grant you a limited, non-exclusive, non-transferable, revocable license to use the Sheet-to-Doc Service for both commercial and non-commercial purposes, subject to the terms of your subscription.
+For the Pro version, we grant you a limited, non-exclusive, non-transferable, revocable license to use the Sheet-to-Doc Service solely for your personal, non-commercial purposes. Commercial use of the Service is strictly prohibited, regardless of version.
 
 ### General Restrictions
 You agree not to:
@@ -95,6 +95,8 @@ The Sheet-to-Doc Service is provided "as is" and "as available" without any warr
 ## Limitation of Liability
 
 **WTSolutions** shall not be liable for any consequences whatsoever arising from your use or inability to use the Sheet-to-Doc Service. In no event shall **WTSolutions**, its directors, officers, employees, or agents be liable for any direct, indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, goodwill, or use, business interruption, or any other damages whatsoever, arising out of or in connection with your use, misuse, or reliance on the Service, whether in an action in contract, tort (including negligence), strict liability, or otherwise, even if **WTSolutions** has been advised of the possibility of such damages. 
+
+To the maximum extent permitted by applicable law, our total liability to you for any claims arising from or related to this Agreement or the Service shall not exceed the total amount you have paid to us for the Service during the 12 months preceding the claim.
 
 You agree that **WTSolutions** shall not be responsible or liable for any damages, losses, or harm caused by or resulting from your violation of any applicable laws, regulations, or third-party rights, or your failure to comply with this Agreement.
 
