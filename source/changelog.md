@@ -77,3 +77,6 @@
 
 - v2.11.4 (2026-4-3)
   - Update UI
+
+- v2.12.0 (2026-4-29)
+  - Add professional version feature, add footer ad
