@@ -132,6 +132,13 @@ Sheet-to-Doc provides a "Last modified by" feature that allows you to customize 
 - **Last modified by**: `John Doe`
 - **Result**: All generated documents will show "John Doe" as the last modifier.
 
+
+## Footer Advertisement Setting
+
+By default, when you are using the free version, advertisement will appear in the footer area of generated documents: "This document is genreated by Sheet-to-Doc, https://s.wtsolutions.cn/sheet-to-doc"
+
+If you are using the Pro version, you can remove this ad by setting "No footer advertisement".
+
 ### Notes
 
 - The "Last modified by" value is stored in the Word document's properties and will be visible in the document information panel.
