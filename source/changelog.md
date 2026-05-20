@@ -80,3 +80,6 @@
 
 - v2.12.0 (2026-4-29)
   - Add professional version feature, add footer ad
+
+- v2.12.1 (2026-5-20)
+  - Fix bug of block_image
