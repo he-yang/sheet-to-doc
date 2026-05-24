@@ -26,7 +26,7 @@ To install the PWA version:
 The addin version is available for Excel and WPS tables. It allows you to use Sheet-to-Doc directly within your spreadsheets.
 
 To install the addin version:
-- Excel: to be released
+- Excel: [Follow this guide](https://marketplace.microsoft.com/en-us/product/WA200010877?tab=Overview).
 - WPS: [Follow this guide](https://s.wtsolutions.cn/s2d-addin/publish.html) This guide is only avalible in Simplified Chinese.
 
 ### Offline Desktop Version
