@@ -84,15 +84,13 @@ Offline desktop version Pro Code:
 
 [https://buy.stripe.com/6oU6oG2Lx10E84ibnA3Je0z](https://buy.stripe.com/6oU6oG2Lx10E84ibnA3Je0z)
 
-Price $14.99 with Discount Code: `S2DEN202605` -> $7.99, valid until 31, May 2026.
-
-
+Price $14.99 excluding tax
 
 - Purchase Offline Desktop Version Pro Code for 3 Devices:
 
 [https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A](https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A)
 
-Price $44.97 with Discount Code: `3S2DEN202605` -> $14.99, valid until 31, May 2026.
+Price $44.97 excluding tax with Discount Code: `3S2DEN202606` -> $29.98 excluding tax, valid until 30, June 2026.
 
 
 
