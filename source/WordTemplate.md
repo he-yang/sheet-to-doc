@@ -587,7 +587,199 @@ Keyboard
 ---
 
 
+### Table Placeholders
 
+| Supported? | Mode 1 (Multiple Docs) | Mode 2 (Single Doc) |
+| :--- | :---: | :---: |
+| Table Placeholder 1 | N | Y |
+| Table Placeholder 2 | N | Y |
+| Table Placeholder 3 | N | Y |
+
+
+If you need to write Excel data into a Word template and display it as a Word table, you can use table placeholders. Table placeholders are not independent placeholders; they are a combination of loop placeholders and conditional placeholders. Therefore, please make sure you understand loop placeholders and conditional placeholders first.
+
+#### Table Placeholder 1
+
+Table Placeholder 1 is suitable for Word templates that contain only one table with a single header row, where you want to write Excel data into the table body. This results in a single table in Word.
+
+Example:
+
+
+Excel Data Table
+
+```
+Name    Age    Gender
+Zhang San    25    Male
+Li Si    30    Female
+Wang Wu    35    Male
+```
+
+Word template format:
+
+---
+<div class="word-document">
+
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| {#data}{Name}| {Age} | {Gender}{/data} |
+
+</div>
+
+---
+
+Generated content in Generation Mode 2:
+
+---
+<div class="word-document">
+
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| Zhang San| 25 | Male |
+| Li Si| 30 | Female |
+| Wang Wu| 35 | Male |
+
+</div>
+
+---
+
+#### Table Placeholder 2
+
+Table Placeholder 2 is suitable for Word templates that contain only one table, but where you want each row of Excel data to be written into a Word table template, resulting in multiple tables in the Word document.
+
+Example:
+
+Excel Data Table
+
+```
+Name    Age    Gender
+Zhang San    25    Male
+Li Si    30    Female
+Wang Wu    35    Male
+
+```
+
+Word template format:
+
+---
+<div class="word-document">
+
+{#data}
+
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+|{Name}| {Age} | {Gender} |
+
+
+
+
+{/data}
+
+</div>
+
+---
+
+Generated content in Generation Mode 2:
+
+---
+<div class="word-document">
+
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| Zhang San| 25 | Male |
+
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| Li Si| 30 | Female |
+
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| Wang Wu| 35 | Male |
+
+</div>
+
+---
+
+
+
+#### Table Placeholder 3
+
+Table Placeholder 3 is suitable for more complex table scenarios. You can understand Table Placeholder 3 better through the following example.
+
+The data source used in Table Placeholder 3 is no longer in Excel format, but in JSON format. If you want to convert Excel to JSON, you can use the Excel add-in [Excel-to-JSON-by-WTSolutions](https://excel-to-json.wtsolutions.cn/zh-cn/latest/ExcelAddIn.html)
+
+
+Example:
+
+JSON Data Source
+
+```json
+[
+  {
+    "Team Name": "Team 1",
+    "Team Members": [
+      {
+        "Name": "Zhang San",
+        "Age": "25",
+        "Gender": "Male"
+      },
+      {
+        "Name": "Li Si",
+        "Age": "30",
+        "Gender": "Female"
+      }
+    ]
+  },
+  {
+    "Team Name": "Team 2",
+    "Team Members": [
+      {
+        "Name": "Wang Wu",
+        "Age": "35",
+        "Gender": "Male"
+      }
+    ]
+  }
+]
+```
+
+Word template format:
+
+---
+<div class="word-document">
+
+{#data}
+
+
+Team Name: {Team Name}
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+|{#Team Members}{Name}| {Age} | {Gender} {/Team Members}|
+
+{/data}
+
+</div>
+
+---
+
+Generated content in Generation Mode 2:
+
+---
+<div class="word-document">
+
+Team Name: Team 1
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| Zhang San| 25 | Male |
+| Li Si| 30 | Female |
+
+Team Name: Team 2
+| Name | Age | Gender |
+| :--- | :---: | :---: |
+| Wang Wu| 35 | Male |
+
+</div>
+
+---
 
 ### Filters
 

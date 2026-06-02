@@ -83,3 +83,6 @@
 
 - v2.12.1 (2026-5-20)
   - Fix bug of block_image
+
+- v2.12.2 (2026-06-02)
+  - Fix bug
