@@ -30,6 +30,7 @@
   - Mode 1 generates multiple files, each containing part of the content.
 - Please check which generation mode you are using.
 - When downloading multiple files, the browser usually asks for permission to download multiple files; you need to allow it.
+- If you are using Safari, due to the safety requirement of Safari, only one file can be downloaded. Edge, Chrome or offline installed version are recommended.
 
 ## Data Related Issues
 1. I pasted data, but it says there is an error, what should I do?
@@ -47,3 +48,6 @@
   - Ensure you downloaded the correct 32-bit or 64-bit version for your system.
 2. Mac: very slow on first launch, normal afterward
   - This is a normal phenomenon. On first launch, the app extracts bundled files, which can take several tens of seconds.
+
+## Other Questions
+Feel free to email he.yang@wtsolutions.cn
