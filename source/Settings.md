@@ -146,3 +146,18 @@ If you are using the Pro version, you can remove this ad by setting "No footer a
 - If you generate documents in batch mode, all documents will use the same "Last modified by" value.
 - The maximum length for this field is 255 characters.
 - Special characters are allowed, but it's recommended to use standard text for compatibility.
+
+
+
+## Password Protection for Documents
+
+The password protection mentioned here refers to protecting the final generated documents. It is a security measure that requires a password when opening the document in office software such as Microsoft Word or WPS.
+
+### Options
+- No password protection
+- Use fixed password: Enter the password you want to use to protect the documents. Sheet-to-Doc will apply this same password to all generated documents.
+- Use field data as password: Select a data field to serve as the document password. Each document's password will be retrieved from this field. When preparing your Excel data table, you need to add an extra column (field) where you set the corresponding password for each row's generated document.
+
+### Notes
+- The web version does not support password protection for documents. The offline desktop version supports password protection for documents. 
+- When you select generation mode 2, you cannot use field data as password. You can only use fixed password/No Password protection.
