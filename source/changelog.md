@@ -86,3 +86,6 @@
 
 - v2.12.2 (2026-06-02)
   - Fix bug
+
+- v2.14.0 (2026-06-21)
+  - add password-protection feature
