@@ -7,17 +7,19 @@
 ## Software Versions
 
 
-| Feature Limits | Free Version | Pro Version |
-| :--------: | :--------: | :--------: |
-| Data Length | 10 rows per time | Unlimited |
-| Image Quantity (including QR Codes) | 10 images per time | Unlimited |
-| Pro Feature: Customize Last modified by | No | Yes |
-| Pro Feature: Footer Ads| With Ads | No Ads|
+| Feature Limits | Free Version | Web/PWA/Addin<br> Pro Version | Offline Desktop Version <br> Pro Version|
+| :--------: | :--------: | :--------: | :--------: |
+| Data Length | 10 rows per time | Unlimited | Unlimited |
+| Image Quantity<br> (including QR Codes) | 10 images per time | Unlimited | Unlimited |
+| Pro Feature: <br>Customize Last modified by | No | Yes | Yes |
+| Pro Feature: <br>Footer Ads| With Ads | No Ads| No Ads |
+| Pricing Model | Free | Subscription Model | One-time-purchase Model |
+| Pricing | Free | $2.66/month<br>$6.99/year | $14.99/device<br>Lifelong use |
 
 
 
-:::{include} _snippet/version.md
-:::
+<!-- :::{include} _snippet/version.md
+::: -->
 
 ## Pricing Models
 
@@ -90,7 +92,7 @@ Price $14.99 excluding tax
 
 [https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A](https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A)
 
-Price $44.97 excluding tax with Discount Code: `3S2DEN202606` -> $29.98 excluding tax, valid until 30, June 2026.
+Price $44.97 excluding tax with Discount Code: `3S2D202607` -> $29.98 excluding tax, valid until 31, July 2026.
 
 
 

@@ -14,12 +14,16 @@ Sheet-to-Doc currently offers `Web Version`, `PWA Version`, `Addin Version`, and
 
 Access the web version through your browser at [https://s.wtsolutions.cn/sheet-to-doc.html](https://s.wtsolutions.cn/sheet-to-doc.html).
 
+
+<div id="pwa"></div>
+
 ### PWA Version
 
 The PWA version is a Progressive Web App that can be installed on your device. It works offline and provides a native app-like experience.
 
-To install the PWA version:
-1. On Windows, open Microsoft Store, search for "Sheet-to-Doc", and click "Get".
+On Windows, open Microsoft Store, search for "Sheet-to-Doc", and click "Get".
+
+<div id="addin"></div>
 
 ### Addin Version
 
@@ -33,6 +37,8 @@ To install the addin version:
 
 The offline desktop version needs to be downloaded and installed on your local computer, supporting Windows, Mac, and Linux.
 
+[Download links](https://s.wtsolutions.cn/latest.html?product=sheet-to-doc&language=en)
+<!-- 
 #### Windows (x32, x64)
 - Win10 and above supported.
 - [sheet-to-doc-2.14.0-win.exe](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.14.0-win.exe)
@@ -53,7 +59,7 @@ The offline desktop version needs to be downloaded and installed on your local c
 
 - [sheet-to-doc-2.14.0-x64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.14.0.AppImage)
 - [sheet-to-doc-2.14.0-arm64.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.14.0-arm64.AppImage)
-- [sheet-to-doc-2.14.0-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.14.0-armv7l.AppImage) 
+- [sheet-to-doc-2.14.0-armv7l.AppImage](https://r2.wtsolutions.cn/sheet-to-doc-releases/Sheet-to-Doc-2.14.0-armv7l.AppImage)  -->
 
 ## FAQ
 
