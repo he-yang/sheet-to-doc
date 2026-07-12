@@ -1,8 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** 2026-01-14
-
-
+**Effective Date:** 2026-07-12
 
 ## Introduction
 
@@ -12,7 +10,7 @@ By using the Service, you agree to the terms outlined in this Privacy Policy. If
 
 ## Scope of This Policy
 
-This Privacy Policy applies to the **Sheet-to-Doc** Service, which is a web application that allows users to generate documents from Word templates and Excel data. This policy describes how we handle data processed through the Service.
+This Privacy Policy applies to the **Sheet-to-Doc** Service, which is an application that allows users to generate documents from Word templates and Excel data. This policy describes how we handle data processed through the Service.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -29,9 +27,9 @@ This Privacy Policy applies to the **Sheet-to-Doc** Service, which is a web appl
 ## Data We Do Not Collect
 
 We want to assure you that:
-- **We do not store or retain any data** from your Excel files, Excel content, Word templates, or Word content.
-- **We do not transmit your data over the internet**. All data processing occurs locally within your web browser.
-- **We do not access, collect, or use any personal or sensitive information** from your Excel files or Word templates.
+- **We do not store or retain any data** from your Excel Data, CSV Data, JSON Data, JSONL Data, or Word templates.
+- **We do not transmit your data over the internet**. All Excel data, CSV data, JSON data, JSONL data, and Word templates processing occurs locally within your web browser/local app.
+- **We do not access, collect, or use any personal or sensitive information** from your Excel Data, CSV Data, JSON Data, JSONL Data, or Word templates.
 
 ## Data We Collect for Subscription and Activation
 
@@ -44,10 +42,12 @@ For Pro feature subscriptions (Online Pro) and Offline Pro purchases, we collect
 
 ## How the Service Works
 
-The **Sheet-to-Doc** Service operates entirely within your local device. When you use the Service:
-- Your Excel data and Word templates are processed locally on your device.
-- The document generation from Excel data and Word templates is performed within your web browser.
-- No data is sent to our servers, except as described in Section 4.
+The **Sheet-to-Doc** Service operates mostly within your local web browser/local app. When you use the Service:
+- Your Excel Data, CSV Data, JSON Data, JSONL Data, and Word templates are processed locally on your web browser/local app.
+- The document generation from Excel Data, CSV data, JSON data, JSONL data, and Word templates is performed within your web browser/local app.
+- No data is sent to our servers, except as described in this Privacy Policy.
+- When using the AI Assistant feature, chat messages are sent to Cloudflare AI Search for processing.
+- When using the Pro features (Online Pro Subscription), your subscription information is sent to our servers for validation.
 
 ## Your Responsibilities
 
@@ -75,7 +75,7 @@ Cloudflare Web Analytics is designed to prioritize user privacy. It collects the
 
 For more information about Cloudflare Web Analytics and their privacy practices, please visit [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
-The **Sheet-to-Doc** Service also uses **Google AdSense** and ***Adsterra*** to display advertisements. Google AdSense and Adsterra use cookies and other technologies to collect data about users for advertising purposes.
+The **Sheet-to-Doc** Service also uses **Google AdSense** to display advertisements. Google AdSense use cookies and other technologies to collect data about users for advertising purposes.
 
 ### What Data is Collected by Google AdSense?
 Google AdSense collects the following information to provide personalized advertising:
@@ -93,19 +93,26 @@ Google AdSense collects the following information to provide personalized advert
 
  For more information about how Google uses data, please visit [Google's Privacy & Terms](https://policies.google.com/privacy).
 
-### What Data is Collected by Adsterra?
-Adsterra collects pseudonymous information linked to browsing events and cookies to help serve the ads:
-- Pseudonymous universally unique identifier (UID)
-- Pseudonymous' device and browser (User agent)
-- Time stamp (Date, Time)
-- Number of Impressions, Clicks
 
-### What Data is NOT Collected by Adsterra?
-- No data from your generated Word documents is shared with Adsterra
-- No sensitive business data from Excel/Word processing
-- No personal information beyond standard web analytics data
 
-For more information about how Adsterra uses data, please visit [Adsterra's Privacy & Terms](https://adsterra.com/privacy-policy-managed/), as well as their cookie policy [Adsterra's Cookie Policy](https://adsterra.com/cookies/).
+The Service integrates with **Cloudflare AI Search** to provide an AI-powered chat assistant feature.
+
+### What Data is Collected by Cloudflare AI Search?
+
+When you use the AI chat feature:
+- Your chat messages are sent to Cloudflare's servers for processing by AI models
+- Conversation history may be temporarily stored in your browser's localStorage for session continuity
+- Cloudflare may collect anonymized usage data about chat interactions for service improvement
+
+### What Data is NOT Collected by Cloudflare AI Search?
+
+- No Excel data, Word template content, or generated document content is sent to Cloudflare AI Search, unless you explicitly provide it in your chat messages.
+- No personal or identifiable information (PII) is collected unless explicitly provided by you in chat messages
+
+For more information about Cloudflare AI Search and their privacy practices, please visit [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+
+Sheet-to-Doc Web Version is served on **Cloudflare**. For more information about Cloudflare privacy practices on web site visitors, please visit [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/).
+
 
 ## Changes to This Privacy Policy
 

@@ -89,3 +89,6 @@
 
 - v2.14.0 (2026-06-21)
   - add password-protection feature
+
+- v2.15.0 (2026-07-12)
+  - Add AI Assistant to Web Version, update privacy policy
