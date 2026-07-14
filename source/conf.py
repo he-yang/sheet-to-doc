@@ -75,12 +75,30 @@ html_theme_options = {
     "nav_links": [
         {
             "title": "Product File",
-            "url": "https://s.wtsolutions.cn/sheet-to-doc-product.html"
+            "url": "https://s.wtsolutions.cn/sheet-to-doc-product.html",
+            "external": True
         },
         {
             "title": "Sheet-to-Doc Web Version",
-            "url": "https://s.wtsolutions.cn/sheet-to-doc.html"
+            "url": "https://s.wtsolutions.cn/sheet-to-doc.html",
+            "external": True
         },
+        {
+            "title": "Related Products",
+            "url": "products",
+            "children": [
+                {
+                    "title": "Excel-to-JSON",
+                    "url": "https://s.wtsolutions.cn/excel-json-product.html",
+                    "external": True
+                },
+                {
+                    "title": "JSON-to-Excel",
+                    "url": "https://s.wtsolutions.cn/excel-json-product.html",
+                    "external": True
+                }
+            ]
+        }
     ]
 }
 
