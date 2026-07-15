@@ -22,9 +22,7 @@ To facilitate everyone's use, we provide some usage examples. We will provide di
 When you encounter questions while preparing your own document templates, you can refer to the examples on this page to understand how to use Sheet-to-Doc.
 
 
-## Basic Examples
-
-### Simple Document Generation (involving `Data Placeholders` and `Loop Placeholder 1`)
+## Simple Document Generation (involving `Data Placeholders` and `Loop Placeholder 1`)
 
 - Invitation 1 (generated via Generation Mode 1) (Generate several independent invitations, each invitation is a separate Word document)
   - Data source: [sample-invitation-12.xlsx](./_static/sample-invitation-12.xlsx)
@@ -74,6 +72,30 @@ When you encounter questions while preparing your own document templates, you ca
 - Device QR Code (generated via Generation Mode 2) (Generate several independent device QR codes)
   - Data source: [sample-qrcode-1.xlsx](./_static/sample-qrcode-1.xlsx)
   - Document template: [sample-qrcode-1.docx](./_static/sample-qrcode-1.docx)
+
+## Simple Table Generation (involving `Loop Placeholders` and `Table Placeholder 1`)
+
+- Simple Table 1 (generated via Generation Mode 2) (Generate several independent simple tables, each simple table is a separate Word document)
+   - Data source: [sample-table-1.xlsx](./_static/sample-table-1.xlsx)
+   - Document template: [sample-table-1.docx](./_static/sample-table-1.docx)
+
+
+## Complex Table Generation (involving `Loop Placeholders` and `Table Placeholder 3`)
+
+- Complex Table 3 (generated via Generation Mode 2) (Generate several independent complex tables, each complex table is a separate Word document)
+
+   - Data source: [sample-table-3.json](./_static/sample-table-3.json)
+   - Document template: [sample-table-3.docx](./_static/sample-table-3.docx)
+
+
+
+## Password Protection for Documents 
+
+- Works only in Offline Desktop Version
+- Password Protection (generated via Generation Mode 2) 
+   - Data source: [sample-password-1.xlsx](./_static/sample-password-1.xlsx)
+   - Document template: [sample-password-1.docx](./_static/sample-password-1.docx)
+
 
 
 > Note:

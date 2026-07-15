@@ -14,7 +14,7 @@
 | Pro Feature: <br>Customize Last modified by | No | Yes | Yes |
 | Pro Feature: <br>Footer Ads| With Ads | No Ads| No Ads |
 | Pricing Model | Free | Subscription Model | One-time-purchase Model |
-| Pricing | Free | $2.66/month<br>$6.99/year | $14.99/device<br>Lifelong use |
+| Pricing | Free | **$2.66/month**<br>**$6.99/year** | **$14.99/device**<br>Lifelong use |
 
 
 

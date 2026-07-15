@@ -151,6 +151,8 @@ If you are using the Pro version, you can remove this ad by setting "No footer a
 
 ## Password Protection for Documents
 
+> (starting from v 2.14.0)
+
 The password protection mentioned here refers to protecting the final generated documents. It is a security measure that requires a password when opening the document in office software such as Microsoft Word or WPS.
 
 ### Options
