@@ -75,14 +75,14 @@ When you encounter questions while preparing your own document templates, you ca
 
 ## Simple Table Generation (involving `Loop Placeholders` and `Table Placeholder 1`)
 
-- Simple Table 1 (generated via Generation Mode 2) (Generate several independent simple tables, each simple table is a separate Word document)
+- Simple Table 1 (generated via Generation Mode 2) 
    - Data source: [sample-table-1.xlsx](./_static/sample-table-1.xlsx)
    - Document template: [sample-table-1.docx](./_static/sample-table-1.docx)
 
 
 ## Complex Table Generation (involving `Loop Placeholders` and `Table Placeholder 3`)
 
-- Complex Table 3 (generated via Generation Mode 2) (Generate several independent complex tables, each complex table is a separate Word document)
+- Complex Table 3 (generated via Generation Mode 2) 
 
    - Data source: [sample-table-3.json](./_static/sample-table-3.json)
    - Document template: [sample-table-3.docx](./_static/sample-table-3.docx)
@@ -92,7 +92,7 @@ When you encounter questions while preparing your own document templates, you ca
 ## Password Protection for Documents 
 
 - Works only in Offline Desktop Version
-- Password Protection (generated via Generation Mode 2) 
+- Password Protection (generated via Generation Mode 1) 
    - Data source: [sample-password-1.xlsx](./_static/sample-password-1.xlsx)
    - Document template: [sample-password-1.docx](./_static/sample-password-1.docx)
 
