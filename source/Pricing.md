@@ -92,8 +92,7 @@ Price $14.99 excluding tax
 
 [https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A](https://buy.stripe.com/3cI3cu71NaBe98m4Zc3Je0A)
 
-Price $44.97 excluding tax with Discount Code: `3S2D202607` -> $29.98 excluding tax, valid until 31, July 2026.
-
+Price $44.97 excluding tax with Discount Code: `3S2D202608` -> $29.98 excluding tax, valid until 31, August 2026.
 
 
 
