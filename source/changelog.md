@@ -92,3 +92,6 @@
 
 - v2.15.0 (2026-07-12)
   - Add AI Assistant to Web Version, update privacy policy
+
+- v2.16.0 (2026-08-25)
+  - Free limit changed from 10 to 100 documents/images

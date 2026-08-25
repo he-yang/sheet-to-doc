@@ -9,8 +9,8 @@
 
 | Feature Limits | Free Version | Web/PWA/Addin<br> Pro Version | Offline Desktop Version <br> Pro Version|
 | :--------: | :--------: | :--------: | :--------: |
-| Data Length | 10 rows per time | Unlimited | Unlimited |
-| Image Quantity<br> (including QR Codes) | 10 images per time | Unlimited | Unlimited |
+| Data Length | 100 rows per time | Unlimited | Unlimited |
+| Image Quantity<br> (including QR Codes) | 100 images per time | Unlimited | Unlimited |
 | Pro Feature: <br>Customize Last modified by | No | Yes | Yes |
 | Pro Feature: <br>Footer Ads| With Ads | No Ads| No Ads |
 | Pricing Model | Free | Subscription Model | One-time-purchase Model |
