@@ -95,6 +95,3 @@
 
 - v2.16.0 (2026-08-25)
   - Free limit changed from 10 to 100 documents/images
-
-- v2.16.1 (2026-10-15)
-  - update contact, wechat
