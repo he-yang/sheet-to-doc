@@ -1,6 +1,6 @@
 # Service Agreement
 
-**Effective Date:** 2026-04-12
+**Effective Date:** 2026-11-24
 
 
 ## Introduction
@@ -9,7 +9,9 @@ Welcome to the Sheet-to-Doc service ("Service"). This Service Agreement ("Agreem
 
 ## Description of Service
 
-The Sheet-to-Doc Service is a web application that allows users to automatically generate documents from Word templates and Excel data. The Service is designed to facilitate the creation of professional documents by populating Word templates with data from Excel data.
+The Sheet-to-Doc Service allows users to automatically generate documents from Word templates and data (Excel, CSV, JSON, JSONL). The Service is designed to facilitate the creation of professional documents by populating Word templates with data.
+
+The Service is offered in several forms: the Online web app, the PWA app, the Excel/WPS Add-in, the Offline Desktop app, and an AI Skill ("**Sheet-to-Doc Agent**") available on the **WorkBuddy** platform, which lets you generate documents through natural-language conversation. Except where explicitly stated, the terms in this Agreement apply to all forms of the Service.
 
 ## User Requirements
 
@@ -17,6 +19,7 @@ To use the Sheet-to-Doc Service, you must:
 - Have a modern web browser that supports HTML5 and JavaScript.
 - Ensure you have the necessary rights to use the Word templates and Excel data you upload.
 - Provide accurate and complete information when registering for or using the Service.
+- To use the AI Skill (Sheet-to-Doc Agent), you must have a WorkBuddy account and comply with WorkBuddy's terms of service and privacy policy.
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8772217510669640"
      crossorigin="anonymous"></script>
@@ -65,6 +68,16 @@ The Sheet-to-Doc Service is available in two versions: Free and Pro. The Pro ver
 - **Device Binding:** Each activation code is bound to one device and cannot be transferred
 - **Payment Methods:** We support Alipay, WeChat Pay, UnionPay, MasterCard, Visa, Apple Pay, Google Pay, and other mainstream payment methods
 
+### AI Skill (Sheet-to-Doc Agent) License
+
+The **AI Skill (Sheet-to-Doc Agent)** is offered on the **WorkBuddy** platform under a separate license from the Online/Offline Pro versions:
+
+- **License Type:** One-time purchase with unlimited use (no per-use or row limits) after purchase.
+- **Pricing:** ¥99 (one-time payment).
+- **Refund:** A 7-day no-reason refund is supported, in accordance with WorkBuddy's platform policies.
+- **Billing & Delivery:** The skill is billed and delivered through **WorkBuddy**; it is independent of the Online Pro subscription and Offline Pro activation, and these licenses are not interchangeable.
+- **Platform:** Use of the skill requires a WorkBuddy account and is subject to WorkBuddy's terms of service and privacy policy in addition to this Agreement.
+
 ### General Subscription Terms
 - We reserve the right to modify subscription fees with 30 days' notice
 - All payments are non-refundable except as required by law
@@ -86,7 +99,9 @@ You are solely responsible for:
 
 ## Data Privacy
 
-We are committed to protecting your privacy. Your Excel data and Word templates processed through the Sheet-to-Doc Service will not be stored, shared, or used by us for any purpose other than providing the Service. For subscription management, we collect and store necessary billing information in accordance with our Privacy Policy. All data processing occurs locally within your web browser to ensure maximum data security.
+We are committed to protecting your privacy. For the **Online, PWA, Add-in, and Offline Desktop** versions, your Excel/CSV/JSON/JSONL data and Word templates are processed locally within your web browser or local app and will not be stored, shared, or used by us for any purpose other than providing the Service. For subscription management, we collect and store necessary billing information in accordance with our [Privacy Policy](privacy.md).
+
+For the **AI Skill (Sheet-to-Doc Agent) on WorkBuddy**, the skill itself does not collect or retain your document data; however, your messages and the data/templates you provide are processed by WorkBuddy's platform and its large language model, and are governed by WorkBuddy's privacy policy. See our [Privacy Policy](privacy.md) for details.
 
 ## Disclaimer of Warranties
 

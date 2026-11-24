@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** 2026-07-12
+**Effective Date:** 2026-11-24
 
 ## Introduction
 
@@ -26,6 +26,8 @@ This Privacy Policy applies to the **Sheet-to-Doc** Service, which is an applica
 
 ## Data We Do Not Collect
 
+This section applies to the **Online, PWA, Add-in, and Offline Desktop** versions of Sheet-to-Doc, where document generation runs locally in your browser or local app. For the **AI Skill (Sheet-to-Doc Agent on WorkBuddy)**, data handling is different — see the dedicated section below.
+
 We want to assure you that:
 - **We do not store or retain any data** from your Excel Data, CSV Data, JSON Data, JSONL Data, or Word templates.
 - **We do not transmit your data over the internet**. All Excel data, CSV data, JSON data, JSONL data, and Word templates processing occurs locally within your web browser/local app.
@@ -42,12 +44,23 @@ For Pro feature subscriptions (Online Pro) and Offline Pro purchases, we collect
 
 ## How the Service Works
 
-The **Sheet-to-Doc** Service operates mostly within your local web browser/local app. When you use the Service:
-- Your Excel Data, CSV Data, JSON Data, JSONL Data, and Word templates are processed locally on your web browser/local app.
-- The document generation from Excel Data, CSV data, JSON data, JSONL data, and Word templates is performed within your web browser/local app.
-- No data is sent to our servers, except as described in this Privacy Policy.
-- When using the AI Assistant feature, chat messages are sent to Cloudflare AI Search for processing.
+The **Sheet-to-Doc** Service is available in several forms: Online, PWA, Add-in, Offline Desktop, and an AI Skill ("Sheet-to-Doc Agent") on WorkBuddy. When you use the Service:
+- For the **Online, PWA, Add-in, and Offline Desktop** versions, your Excel Data, CSV Data, JSON Data, JSONL Data, and Word templates are processed locally on your web browser/local app.
+- For those versions, document generation is performed within your web browser/local app, and no document data is sent to our servers, except as described in this Privacy Policy.
+- When using the **AI Skill (Sheet-to-Doc Agent) on WorkBuddy**, the skill itself does not collect or retain your document data; your messages and the data/templates you provide are processed by WorkBuddy's platform and its large language model, and are governed by WorkBuddy's privacy policy. See the "Sheet-to-Doc Agent (AI Skill on WorkBuddy)" section below.
+- When using the AI Assistant feature (built into the Online version), chat messages are sent to Cloudflare AI Search for processing.
 - When using the Pro features (Online Pro Subscription), your subscription information is sent to our servers for validation.
+
+## Sheet-to-Doc Agent (AI Skill on WorkBuddy)
+
+Sheet-to-Doc is also available as an AI Skill ("**Sheet-to-Doc Agent**") on the **WorkBuddy** platform, which lets you generate documents by describing your needs in natural language instead of using the Sheet-to-Doc graphical interface.
+
+- **The skill itself does not collect or retain your document data.** WTSolutions does not receive, store, or use your Excel/CSV/JSON/JSONL data or Word templates through the skill.
+- When you use the skill in WorkBuddy, your chat messages and any data or templates you provide are processed by **WorkBuddy's platform and its large language model** to fulfill your request.
+- This processing is governed by **WorkBuddy's privacy policy and terms**, not by this Privacy Policy. Please review WorkBuddy's privacy practices before using the skill.
+- Because this data flow differs from the local versions, if you require your document data to never leave your device, please use the **Offline Desktop** version instead.
+
+You can learn more about the AI Skill on its [product page](https://s.wtsolutions.cn/sheet-to-doc-agent.html) and in the [documentation](https://sheet-to-doc.wtsolutions.cn/zh-cn/latest/Agent.html).
 
 ## Your Responsibilities
 
